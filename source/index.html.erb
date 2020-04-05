@@ -15,19 +15,23 @@ title: Larson Recipes
 
 <h3>Table of Contents</h3>
 
-<nav class="nav flex-column">
-  <%= link_to("Appetizers", "/appetizers.html", class: "nav-link") %>
-  <%= link_to("Bread", "/bread.html", class: "nav-link") %>
-  <%= link_to("Cocktails", "/cocktails.html", class: "nav-link") %>
-  <%= link_to("Desserts", "/desserts.html", class: "nav-link") %>
-  <%= link_to("Main Dishes", "/main_dishes.html", class: "nav-link") %>
-  <%= link_to("Pickles", "/pickles.html", class: "nav-link") %>
-  <%= link_to("Salads", "/salads.html", class: "nav-link") %>
-</nav>
+<div class="row">
+  <div class="col-md-6">
+    <nav class="nav flex-column">
+      <%= link_to("Appetizers", "/appetizers.html", class: "nav-link") %>
+      <%= link_to("Bread", "/bread.html", class: "nav-link") %>
+      <%= link_to("Cocktails", "/cocktails.html", class: "nav-link") %>
+      <%= link_to("Desserts", "/desserts.html", class: "nav-link") %>
+      <%= link_to("Main Dishes", "/main_dishes.html", class: "nav-link") %>
+      <%= link_to("Pickles", "/pickles.html", class: "nav-link") %>
+      <%= link_to("Salads", "/salads.html", class: "nav-link") %>
+      <%= link_to("Sides", "/sides.html", class: "nav-link") %>
+    </nav>
+  </div>
 
-<br/>
-<hr/>
-<h4>Todo</h4>
-<ul>
-  <li>Sides</li>
-</ul>
+
+</div>
+
+<div class="separator"></div>
+
+<p class="center">&copy; <%= Time.now.year %> / The Larson Family</p>
