@@ -1,0 +1,78 @@
+body {
+  background-color: #ffffff;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  padding: 1rem;
+  text-align: left;
+  font-size: 20px;
+}
+
+// ROYGBIV
+body.red { border-top: 0.5rem solid red; }
+body.orange { border-top: 0.5rem solid orange; }
+body.yellow { border-top: 0.5rem solid yellow; }
+body.green { border-top: 0.5rem solid green; }
+body.blue { border-top: 0.5rem solid blue; }
+body.pink { border-top:0.5rem solid pink; }
+body.indigo { border-top: 0.5rem solid indigo; }
+body.purple { border-top: 0.5rem solid purple; }
+
+hgroup {
+  text-align:center;
+}
+
+h1 {
+  font-family: 'Bungee Inline', cursive;
+  font-size: 4rem;
+}
+
+h2,h3,h4,h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+body {
+  font-family: 'EB Garamond', serif;
+}
+
+a {
+  color: rgba(#000, 0.7);
+
+  &:focus,
+  &:hover {
+    color: rgba(#000, 0.6);
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.recipe {
+  img {
+    border: 1px solid black;
+    padding: 1rem;
+  }
+
+  .image { }
+  .instructions { }
+}
+
+.separator {
+  border-bottom:1px solid #CCCCCC;
+  margin: 4rem;
+  text-align:center;
+  font-size:4rem;
+}
+
+.cookies {
+  .image {
+    height: 200px;
+    .img-fluid {
+      height: 100%;
+    }
+  }
+}
