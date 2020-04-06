@@ -1,0 +1,10 @@
+@media print {
+  div.recipe {
+    page-break-before: always;
+
+    div.title {
+      margin-top:6rem;
+    }
+  }
+  .separator {display:none;}
+}
