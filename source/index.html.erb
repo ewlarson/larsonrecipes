@@ -7,29 +7,37 @@ title: Larson Recipes
   Larson Recipes
 </h1>
 <h2 class="center">
-  Food and love from 918 Melrose Drive.
+  Food and Love from 918 Melrose Drive
 </h2>
 </hgroup>
 
-<div class="separator"></div>
-
-<h3>Table of Contents</h3>
-
 <div class="row">
-  <div class="col-md-6">
-    <nav class="nav flex-column">
-      <%= link_to("Appetizers", "/appetizers.html", class: "nav-link") %>
-      <%= link_to("Bread", "/bread.html", class: "nav-link") %>
-      <%= link_to("Cocktails", "/cocktails.html", class: "nav-link") %>
-      <%= link_to("Desserts", "/desserts.html", class: "nav-link") %>
-      <%= link_to("Main Dishes", "/main_dishes.html", class: "nav-link") %>
-      <%= link_to("Pickles", "/pickles.html", class: "nav-link") %>
-      <%= link_to("Salads", "/salads.html", class: "nav-link") %>
-      <%= link_to("Sides", "/sides.html", class: "nav-link") %>
-    </nav>
+  <div class="col-md-3">
+
+    <div class="image center mb-4">
+      <img class="img-fluid" src="<%= image_path('mom_and_dad.jpg') %>"  />
+    </div>
+
+    <div class="mb-4">
+      <h3>Table of Contents</h3>
+      <nav class="nav flex-column">
+        <%= link_to("Appetizers", "/appetizers.html", class: "nav-link blue") %>
+        <%= link_to("Bread", "/bread.html", class: "nav-link pink") %>
+        <%= link_to("Cocktails", "/cocktails.html", class: "nav-link lightblue") %>
+        <%= link_to("Desserts", "/desserts.html", class: "nav-link purple") %>
+        <%= link_to("Main Dishes", "/main_dishes.html", class: "nav-link orange") %>
+        <%= link_to("Pickles", "/pickles.html", class: "nav-link green") %>
+        <%= link_to("Salads", "/salads.html", class: "nav-link lightgreen") %>
+        <%= link_to("Sides", "/sides.html", class: "nav-link lightblue") %>
+      </nav>
+    </div>
   </div>
 
-
+  <div class="col-md-9">
+    <div class="center">
+      <img class="img-fluid" src="<%= image_path('thanksgiving.jpg') %>"  />
+    </div>
+  </div>
 </div>
 
 <div class="separator"></div>

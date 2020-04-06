@@ -22,22 +22,86 @@ body.pink { border-top:0.5rem solid pink; }
 body.indigo { border-top: 0.5rem solid indigo; }
 body.purple { border-top: 0.5rem solid purple; }
 
+a.nav-link.red { border-left: 4px solid red; }
+a.nav-link.orange { border-left: 4px solid orange; }
+a.nav-link.yellow { border-left: 4px solid yellow; }
+a.nav-link.green { border-left: 4px solid green; }
+a.nav-link.lightgreen { border-left: 4px solid lightgreen; }
+a.nav-link.lightblue { border-left: 4px solid lightblue; }
+a.nav-link.blue { border-left: 4px solid blue; }
+a.nav-link.pink { border-left: 4px solid pink; }
+a.nav-link.indigo { border-left: 4px solid indigo; }
+a.nav-link.purple { border-left: 4px solid purple; }
+
 hgroup {
   text-align:center;
+  margin-bottom:2rem;
+  h2 {
+    font-weight:normal;
+    font-style:italic;
+  }
 }
 
+img {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+hgroup > h2 { font-size:3rem; font-weight: bold;}
+
 h1 {
-  font-family: 'Bungee Inline', cursive;
+  font-family: 'EB Garamond', cursive;
   font-size: 4rem;
+  font-weight: bold;
+}
+
+h1 a:hover {
+  text-decoration:none;
 }
 
 h2,h3,h4,h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'EB Garamond';
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3,h4,h5 {
+  text-transform: uppercase;
+  font-size:1.25rem;
   font-weight: bold;
 }
 
 body {
   font-family: 'EB Garamond', serif;
+}
+
+div.recipe {
+  div.title {
+    text-align:center;
+    margin-bottom:4rem;
+    h2 {
+      font-style: italic;
+      font-size: 3rem;
+    }
+  }
+}
+
+nav {
+  a {
+    margin-bottom:1rem;
+
+  }
+}
+
+.instructions ul {
+  padding-left:0px;
+}
+.instructions ul > li {
+  list-style: none;
+  font-style:italic;
 }
 
 a {
@@ -65,7 +129,7 @@ a {
 
 .separator {
   border-bottom:1px solid #CCCCCC;
-  margin: 4rem;
+  margin: 2rem;
   text-align:center;
   font-size:4rem;
 }
