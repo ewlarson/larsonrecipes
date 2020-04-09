@@ -1,3 +1,5 @@
+require 'builder'
+
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
@@ -12,6 +14,7 @@ end
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+page "/sitemap.xml", :layout => false
 
 activate :directory_indexes
 
