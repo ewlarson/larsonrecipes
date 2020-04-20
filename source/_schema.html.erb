@@ -1,0 +1,26 @@
+<% data.appetizers.recipes.each do |recipe| %>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Recipe",
+      "name": "<%= recipe.name %>",
+      "url": "<%= url_for("/appetizers/##{recipe.name.parameterize}") %>",
+      "image": <%= schema_images(recipe) %>,
+      "author": {
+          "@type": "Person",
+          "name": "Eric Larson"
+        },
+      "datePublished": "2020-04-20",
+      "recipeIngredient": <%= recipe.ingredients.first.list %>,
+      "recipeInstructions": [
+          {
+            "@type": "HowToStep",
+            "name": "Directions",
+            "text": "<%= recipe.instructions %>"
+          }
+        ],
+      "recipeCategory": "<%= current_page.data.recipeCategory %>",
+      "recipeCuisine": "<%= current_page.data.recipeCuisine %>"
+    }
+  </script>
+<% end %>

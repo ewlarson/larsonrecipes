@@ -24,7 +24,10 @@
 
     <%= stylesheet_link_tag "site" %>
     <%= stylesheet_link_tag "print" %>
-    <%= javascript_include_tag "site" %>
+
+    <% if current_page.data.schema %>
+      <%= partial "schema" %>
+    <% end %>
 
   </head>
   <body class="<%= current_page.data.color || "yellow" %>">

@@ -1,0 +1,83 @@
+{
+  "recipes": [
+    {
+      "name":"Red Bean Salad Ranchero",
+      "ingredients": [
+        {
+          "label": "Ingredients",
+          "list": [
+            "1 can red beans, drained",
+            "1 stalk celery, finely chopped",
+            "1 small onion finely chopped",
+            "½ cup diced sharp Cheddar cheese",
+            "¼ cup ripe olive, sliced",
+            "¼ cup fresh parsley, chopped",
+            "1 small tomato, seeded and chopped",
+            "2 tablespoons green chiles"
+          ]
+        },
+        {
+          "label": "Dressing",
+          "list": [
+            "¼ cup red wine vinegar",
+            "1 teaspoon salt",
+            "1 teaspoon sugar",
+            "¼ teaspoon oregano",
+            "¼ teaspoon ground cumin",
+            "dash of cayenne",
+            "pepper",
+            "1 clove garlic, minced",
+            "½ cup olive oil or salad oil"
+          ]
+        }
+      ],
+      "instructions": "Mix dressing together. Mix beans, celery, onion, cheese, olives, parsely, tomato, green chiles, and dressing. Cover and refrigerate 1-3 hours.",
+      "images": [
+        "red_bean_ranchero.jpg"
+      ],
+      "notes": ""
+    },
+    {
+      "name": "Dad's Shrimp Dip",
+      "ingredients": [
+        {
+          "label": "Ingredients",
+          "list": [
+            "1 box cream cheese, room temperature",
+            "2 green onions, chopped",
+            "2 shakes garlic salt",
+            "1 teaspoon lemon juice",
+            "¼ teaspoon worcestershire sauce",
+            "⅓ cup cocktail sauce",
+            "1 can medium deveined shrimp, drained and rinsed",
+            "1 teaspoon parsley flakes"
+          ]
+        }
+      ],
+      "instructions": "Mix cream cheese, green onions, garlic salt, lemon juice and worcestershire. Spread cream cheese mixture onto a dinner plate and top with cocktail sauce. Add the shrimp and top with parsley.",
+      "images": [
+        "shrimp_dip.jpg"
+      ],
+      "notes": ""
+    },
+    {
+      "name": "Vegetable Cream Cheese",
+      "ingredients": [
+        {
+          "label": "Ingredients",
+          "list": [
+            "1 package cream cheese",
+            "4 teaspoons green onions, minced",
+            "4 teaspoons carrots, minced",
+            "4 teaspoons radishes, minced",
+            "4 teaspoons celery, minced",
+            "½ teaspoon garlic salt"
+          ]
+        }
+      ],
+      "instructions": "Let cream cheese soften a bit, then mix with vegetables and salt.",
+      "images": [],
+      "notes": ""
+    }
+  ]
+}

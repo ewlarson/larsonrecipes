@@ -1,4 +1,5 @@
 require 'builder'
+require "active_support/core_ext/string/inflections"
 
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
@@ -35,12 +36,20 @@ activate :directory_indexes
 # Helpers
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
+helpers do
+  def schema_images(recipe)
+    array = []
+    recipe.images.collect do |img|
+      array << image_path(img)
+    end
 
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
+    if array.empty?
+      array << image_path('mom_and_dad.jpg')
+    end
+
+    array
+  end
+end
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
@@ -49,4 +58,5 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :asset_hash
+  activate :asset_host, host: '//larsonrecipes.com'
 end
