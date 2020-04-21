@@ -2,6 +2,7 @@
   "recipes": [
     {
       "name":"Red Bean Salad Ranchero",
+      "author": "Jane Larson",
       "ingredients": [
         {
           "label": "Ingredients",
@@ -39,6 +40,7 @@
     },
     {
       "name": "Dad's Shrimp Dip",
+      "author": "Ronald Larson",
       "ingredients": [
         {
           "label": "Ingredients",
@@ -62,6 +64,7 @@
     },
     {
       "name": "Vegetable Cream Cheese",
+      "author": "Jane Larson",
       "ingredients": [
         {
           "label": "Ingredients",

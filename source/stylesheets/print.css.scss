@@ -1,4 +1,23 @@
 @media print {
+
+  div.section {
+    page-break-before: always;
+
+    h1 { display: none; }
+    h2 {
+      font-size: 6rem;
+      margin-top: 10rem;
+    }
+
+    nav {
+      display: none;
+    }
+
+    div.print {
+      display: block;
+    }
+  }
+
   div.recipe {
     page-break-before: always;
 
@@ -6,5 +25,5 @@
       margin-top:6rem;
     }
   }
-  .separator {display:none;}
+  .separator { display: none; }
 }

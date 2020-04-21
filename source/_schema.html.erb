@@ -4,11 +4,11 @@
       "@context": "https://schema.org/",
       "@type": "Recipe",
       "name": "<%= recipe.name %>",
-      "url": "<%= url_for("/appetizers/##{recipe.name.parameterize}") %>",
+      "url": "<%= url_for("/#{current_page.data.recipeCategory}/##{recipe.name.parameterize}") %>",
       "image": <%= schema_images(recipe) %>,
       "author": {
           "@type": "Person",
-          "name": "Eric Larson"
+          "name": "<%= recipe.author %>"
         },
       "datePublished": "2020-04-20",
       "recipeIngredient": <%= recipe.ingredients.first.list %>,
