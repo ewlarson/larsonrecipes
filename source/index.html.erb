@@ -3,22 +3,22 @@ title: Larson Recipes
 ---
 
 <hgroup>
-<h1 class="center">
+<h1 id="title" class="center">
   Larson Recipes
 </h1>
-<h2 class="center">
+<h2 class="center web">
   Food and Love from 918 Melrose Drive
 </h2>
 </hgroup>
 
-<div class="row">
+<div id="cover" class="row">
   <div class="col-md-3">
 
-    <div class="image center mb-4">
+    <div class="image center mb-4 web">
       <img class="img-fluid" src="<%= image_path('mom_and_dad.jpg') %>"  />
     </div>
 
-    <div class="mb-4">
+    <div class="mb-4 web">
       <h3>Table of Contents</h3>
       <nav class="nav flex-column">
         <%= link_to("Appetizers", "/appetizers.html", class: "nav-link blue") %>
@@ -38,8 +38,26 @@ title: Larson Recipes
       <img class="img-fluid" src="<%= image_path('thanksgiving.jpg') %>"  />
     </div>
   </div>
+
+  <h2 id="tagline" class="center print">
+    Food and Love from 918 Melrose Drive
+  </h2>
 </div>
 
 <div class="separator"></div>
 
-<p class="center">&copy; <%= Time.now.year %> / The Larson Family</p>
+<div id="toc" class="print">
+  <h3 id="toc-heading">Table of Contents</h3>
+  <nav id="toc-list" class="nav flex-column">
+    <li><%= link_to("Appetizers", "#appetizers", class: "nav-link blue") %></li>
+    <li><%= link_to("Bread", "#bread", class: "nav-link pink") %></li>
+    <li><%= link_to("Cocktails", "#cocktails", class: "nav-link lightblue") %></li>
+    <li><%= link_to("Desserts", "#desserts", class: "nav-link purple") %></li>
+    <li><%= link_to("Main Dishes", "#main_dishes", class: "nav-link orange") %></li>
+    <li><%= link_to("Pickles", "#pickles", class: "nav-link green") %></li>
+    <li><%= link_to("Salads", "#salads", class: "nav-link lightgreen") %></li>
+    <li><%= link_to("Sides", "#sides", class: "nav-link lightblue") %></li>
+  </nav>
+</div>
+
+<p class="center web">&copy; <%= Time.now.year %> / The Larson Family</p>

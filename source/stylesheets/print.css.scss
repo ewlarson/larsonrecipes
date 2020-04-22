@@ -1,4 +1,25 @@
+$lavender: rgb(215, 131, 255);
+
 @media print {
+
+  body {
+    border-top: none !important;
+  }
+
+  .web {
+    display: none;
+  }
+
+  .print {
+    display: block !important;
+  }
+
+  //
+  a {
+    &:not(.btn) {
+      text-decoration: none;
+    }
+  }
 
   div.section {
     page-break-before: always;
@@ -7,14 +28,11 @@
     h2 {
       font-size: 6rem;
       margin-top: 10rem;
+      string-set: heading content();
     }
 
     nav {
       display: none;
-    }
-
-    div.print {
-      display: block;
     }
   }
 
@@ -22,8 +40,129 @@
     page-break-before: always;
 
     div.title {
-      margin-top:6rem;
+      margin-top: 20pt;
     }
+
+    img { height: 200pt; }
   }
   .separator { display: none; }
+
+  @page {
+
+  }
+
+  @page :left {
+    margin-right: 0.375in;
+
+    @bottom-left {
+      background: white;
+      content: counter(page) " | Larson Recipes";
+      height: 1cm;
+      vertical-align: middle;
+      width: 100%;
+    }
+  }
+
+  @page :right {
+    margin-left: 0.375in;
+
+    @bottom-right {
+      background: white;
+      content: string(heading) " | " counter(page);
+      height: 1cm;
+      vertical-align: middle;
+      width: 100%;
+    }
+  }
+
+  @page :first {
+    margin-left: 0.375in;
+    margin-right: 0;
+    @bottom-right {
+      background: none;
+      content: ''; }
+  }
+
+  @page :blank {
+    @top-left {
+      background: none;
+      content: ''; }
+    @top-center {
+      content: none; }
+    @top-right {
+      content: none; } }
+
+  @page no-chapter {
+    @top-left {
+      background: none;
+      content: none; }
+    @top-center {
+      content: none; }
+    @top-right {
+      content: none; } }
+
+  @page chapter {
+    margin: 0;
+    @top-left {
+      content: none; }
+    @top-center {
+      content: none; }
+    @top-right {
+      content: none; } }
+
+  #cover {
+    img { height: 480pt; }
+  }
+
+  #title {
+    font-size:160pt;
+    margin-bottom:40pt;
+  }
+
+  #tagline {
+    margin-top:40pt;
+    width:100%;
+  }
+
+  #toc-heading {
+    font-size:24pt;
+    text-align:center;
+    padding-top:100pt;
+    margin-bottom:60pt;
+  }
+
+  #toc, #appetizers, #bread, #cocktails {
+    break-before: right;
+    break-after: left;
+    page: no-chapter;
+  }
+
+  #cocktails-leader {
+    align-items: center;
+    display: flex;
+    height: 2000mm;
+    justify-content: center;
+    background-color: #DFDBE5;
+    background-image: url("data:image/svg+xml,%3Csvg width='44' height='12' viewBox='0 0 44 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 12v-2L0 0v10l4 2h16zm18 0l4-2V0L22 10v2h16zM20 0v8L4 0h16zm18 0L22 8V0h16z' fill='%23ff85ff' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+    page: chapter;
+  }
+
+  nav#toc-list {
+    li {
+      margin: 20pt;
+
+      a {
+        border-top: 1px solid gray;
+        width:100%;
+        padding: 10pt;
+        font-size: 24pt;
+      }
+
+      a::after {
+        color: black;
+        content: leader('.') target-counter(attr(href), page);
+        float: right;
+      }
+    }
+  }
 }

@@ -22,6 +22,12 @@ body.pink { border-top:0.5rem solid pink; }
 body.indigo { border-top: 0.5rem solid indigo; }
 body.purple { border-top: 0.5rem solid purple; }
 
+// Crayons
+$carnation: #FF8AD8;
+$bubblegum: #FF85FF;
+$lavender: rgb(215, 131, 255);
+$flora: #73FA79;
+
 a.nav-link.red { border-left: 4px solid red; }
 a.nav-link.orange { border-left: 4px solid orange; }
 a.nav-link.yellow { border-left: 4px solid yellow; }
@@ -78,7 +84,7 @@ body {
   font-family: 'EB Garamond', serif;
 }
 
-div.print {
+.print {
   display: none;
 }
 
