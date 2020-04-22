@@ -1,9 +1,80 @@
+$carnation: rgb(255,138,216);
+$bubblegum: rgb(255, 133, 255);
 $lavender: rgb(215, 131, 255);
+$orchid: rgb(122,129,255);
+$sky: rgb(118,214,255);
+$ice: rgb(115,253,255);
+$spindrift: rgb(115,252,214);
+$flora: rgb(115,250,121);
+$honeydew: rgb(212,251,121);
+$banana: rgb(255,252,121);
+$cantaloupe: rgb(255,212,121);
+$salmon: rgb(255,126,121);
+$iron: #5E5E5E;
 
 @media print {
 
+  @page {
+    size: 5.5in 8.5in;
+  }
+
+  @page :left {
+    margin-right: 0.375in;
+
+    @bottom-left {
+      background: white;
+      content: counter(page) " | Larson Recipes";
+      height: 1cm;
+      vertical-align: middle;
+      width: 100%;
+      font-size:8pt;
+    }
+  }
+
+  @page :right {
+    margin-left: 0.375in;
+
+    @bottom-right {
+      background: white;
+      content: string(heading) " | " counter(page);
+      height: 1cm;
+      vertical-align: middle;
+      width: 100%;
+      font-size:8pt;
+    }
+  }
+
+  @page :first {
+    margin-left: 0.375in;
+    margin-right: 0;
+    background: lightblue image-url("thanksgiving_background.jpg") no-repeat fixed center;
+
+    @bottom-right {
+      background: none;
+      content: ''; }
+  }
+
+  @page no-chapter {
+    @bottom-left {
+      background: none;
+      content: ''; }
+    @bottom-center {
+      content: ''; }
+    @bottom-right {
+      content: ''; } }
+
+  @page chapter {
+    margin: 0;
+    @bottom-left {
+      content: ''; }
+    @bottom-center {
+      content: ''; }
+    @bottom-right {
+      content: ''; } }
+
   body {
     border-top: none !important;
+    background-color: transparent;
   }
 
   .web {
@@ -26,8 +97,8 @@ $lavender: rgb(215, 131, 255);
 
     h1 { display: none; }
     h2 {
-      font-size: 6rem;
-      margin-top: 10rem;
+      font-size: 42pt;
+      margin-top: 32pt;
       string-set: heading content();
     }
 
@@ -37,131 +108,145 @@ $lavender: rgb(215, 131, 255);
   }
 
   div.recipe {
-    page-break-before: always;
 
-    div.title {
-      margin-top: 20pt;
+    div.title h2 {
+      page-break-before: always;
+      margin-top: 10pt;
+      font-size: 20pt;
+      color: $iron;
     }
 
-    img { height: 200pt; }
+    img {display: none;}
+
+    div.instructions {
+      width: 100%;
+      float: left;
+
+      font-size: 10pt;
+
+      h3, h4, h5 {
+        font-size: 11pt;
+        margin-top: 0;
+        color: $salmon;
+      }
+
+      .ingredients {
+        width: 40%;
+        float: left;
+        font-size: 8pt;
+      }
+
+      .directions {
+        width: 56%;
+        margin-left:10pt;
+        float: right;
+        font-size: 9pt;
+      }
+
+      .notes {
+        clear: both;
+        width: 100%;
+      }
+
+    }
   }
+
+  .print-image {
+    page-break-before: always;
+    page-break-after: always;
+    padding-top:80pt;
+  }
+
+  img {width: 300pt;}
+
   .separator { display: none; }
 
-  @page {
-
-  }
-
-  @page :left {
-    margin-right: 0.375in;
-
-    @bottom-left {
-      background: white;
-      content: counter(page) " | Larson Recipes";
-      height: 1cm;
-      vertical-align: middle;
-      width: 100%;
-    }
-  }
-
-  @page :right {
-    margin-left: 0.375in;
-
-    @bottom-right {
-      background: white;
-      content: string(heading) " | " counter(page);
-      height: 1cm;
-      vertical-align: middle;
-      width: 100%;
-    }
-  }
-
-  @page :first {
-    margin-left: 0.375in;
-    margin-right: 0;
-    @bottom-right {
-      background: none;
-      content: ''; }
-  }
-
-  @page :blank {
-    @top-left {
-      background: none;
-      content: ''; }
-    @top-center {
-      content: none; }
-    @top-right {
-      content: none; } }
-
-  @page no-chapter {
-    @top-left {
-      background: none;
-      content: none; }
-    @top-center {
-      content: none; }
-    @top-right {
-      content: none; } }
-
-  @page chapter {
-    margin: 0;
-    @top-left {
-      content: none; }
-    @top-center {
-      content: none; }
-    @top-right {
-      content: none; } }
 
   #cover {
-    img { height: 480pt; }
-  }
+    padding-top:320pt;
 
-  #title {
-    font-size:160pt;
-    margin-bottom:40pt;
-  }
+    hgroup {
+      background-color: #f6f3ee;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23aca392' fill-opacity='0.2'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      margin:10pt;
+      border: 4pt double gray;
 
-  #tagline {
-    margin-top:40pt;
-    width:100%;
+      #title {
+        padding:10pt;
+        margin:10pt;
+        margin-top:0;
+        display:inline-block;
+        color: $iron;
+        font-size:40pt;
+        margin-bottom:0;
+      }
+
+      #tagline {
+        margin-top:0;
+        margin-bottom:0;
+        padding:10pt;
+        padding-top:0;
+        font-size: 16pt;
+        font-style:normal;
+        display:inline-block;
+        color: $salmon;
+        text-transform: uppercase;
+      }
+    }
   }
 
   #toc-heading {
     font-size:24pt;
     text-align:center;
-    padding-top:100pt;
-    margin-bottom:60pt;
+    padding-top:10pt;
+    margin-bottom:20pt;
   }
 
-  #toc, #appetizers, #bread, #cocktails {
+  #toc, #appetizers, #bread, #cocktails-leader {
+    page-break-before: always;
+    page-break-after: always;
     break-before: right;
     break-after: left;
     page: no-chapter;
   }
 
   #cocktails-leader {
+    page-break-before: always;
+    page-break-after: always;
+    break-before: right;
+    break-after: left;
+    page: no-chapter;
+
     align-items: center;
     display: flex;
-    height: 2000mm;
+    height: 200mm;
     justify-content: center;
     background-color: #DFDBE5;
     background-image: url("data:image/svg+xml,%3Csvg width='44' height='12' viewBox='0 0 44 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 12v-2L0 0v10l4 2h16zm18 0l4-2V0L22 10v2h16zM20 0v8L4 0h16zm18 0L22 8V0h16z' fill='%23ff85ff' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
     page: chapter;
   }
 
-  nav#toc-list {
-    li {
-      margin: 20pt;
+  #toc {
+    ul {
+      padding-left:0;
 
-      a {
-        border-top: 1px solid gray;
-        width:100%;
-        padding: 10pt;
-        font-size: 24pt;
-      }
+      li {
+        list-style: none;
+        margin: 20pt;
 
-      a::after {
-        color: black;
-        content: leader('.') target-counter(attr(href), page);
-        float: right;
+        a {
+          display: block;
+          border-top: 1px solid gray;
+          width:100%;
+          padding: 4pt;
+          font-size: 14pt;
+        }
+
+        a::after {
+          color: black;
+          content: leader('.') target-counter(attr(href), page);
+          float: right;
+        }
       }
     }
   }

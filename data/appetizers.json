@@ -36,6 +36,7 @@
       "images": [
         "red_bean_ranchero.jpg"
       ],
+      "print_image": true,
       "notes": ""
     },
     {
@@ -60,6 +61,7 @@
       "images": [
         "shrimp_dip.jpg"
       ],
+      "print_image": true,
       "notes": ""
     },
     {
@@ -80,6 +82,7 @@
       ],
       "instructions": "Let cream cheese soften a bit, then mix with vegetables and salt.",
       "images": [],
+      "print_image": false,
       "notes": ""
     }
   ]

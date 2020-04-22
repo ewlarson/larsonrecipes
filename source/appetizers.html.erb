@@ -21,13 +21,6 @@ recipeCuisine: American
       </a>
     <% end %>
   </nav>
-
-  <div class="print row justify-content-center">
-    <div class="image col-md-12">
-      <img class="img-fluid" src="<%= image_path('shrimp_dip.jpg') %>" />
-    </div>
-  </div>
-
 </div>
 
 <% order_last = true %>
@@ -42,7 +35,7 @@ recipeCuisine: American
     <% if recipe.images.size > 0 %>
       <div class="image col-md-6 <%= order_last ? 'order-last' : '' %>">
         <% recipe.images.each do |image| %>
-          <img class="img-fluid" src="<%= image_path(image) %>" />
+          <img class="img-fluid" src="<%= image_path(image) %>" alt="<%= recipe.name %>"/>
         <% end %>
       </div>
 
@@ -50,17 +43,28 @@ recipeCuisine: American
     <% end %>
 
     <div class="instructions col-md-6">
-      <% recipe.ingredients.each do |list| %>
-        <h3><%= list.label %></h3>
-        <ul>
-          <% list.list.each do |item| %>
-            <li><%= item %></li>
-          <% end %>
-        </ul>
-      <% end %>
-
-      <h4>Directions</h4>
-      <p><%= recipe.instructions %></p>
+      <div class="ingredients">
+        <% recipe.ingredients.each do |list| %>
+          <h3><%= list.label %></h3>
+          <ul>
+            <% list.list.each do |item| %>
+              <li><%= item %></li>
+            <% end %>
+          </ul>
+        <% end %>
+      </div>
+      <div class="directions">
+        <h4>Directions</h4>
+        <p><%= recipe.instructions %></p>
+      </div>
     </div>
   </div>
+
+  <% if recipe.images.size > 0 && recipe.print_image == true %>
+    <div class="print print-image row justify-content-center">
+      <div class="image col-md-12">
+        <img src="<%= image_path(recipe.images.first) %>" alt="<%= recipe.name %>"/>
+      </div>
+    </div>
+  <% end %>
 <% end %>

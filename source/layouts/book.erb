@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162929443-1"></script>
@@ -18,11 +18,10 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "Middleman" %></title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|EB+Garamond|Montserrat|EB+Garamond&display=swap" rel="stylesheet">
 
     <%= stylesheet_link_tag "site" %>
+    <%= stylesheet_link_tag "print" %>
 
     <% if current_page.data.schema %>
       <%= partial "schema" %>
