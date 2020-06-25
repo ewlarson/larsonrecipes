@@ -11,4 +11,4 @@ gem "builder"
 gem 'activesupport'
 
 # Bug fix?
-gem 'rack', '2.0.8'
+gem 'rack', '2.1.4'
