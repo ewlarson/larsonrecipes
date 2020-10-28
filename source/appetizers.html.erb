@@ -1,6 +1,6 @@
 ---
 title: Larson Recipes &middot; Appetizers
-color: blue
+color: salmon
 schema: true
 recipeCategory: appetizers
 recipeCuisine: American
@@ -15,27 +15,27 @@ recipeCuisine: American
   </hgroup>
 
   <nav class="nav nav-pills nav-fill">
-    <% data.appetizers.recipes.each do |recipe| %>
-      <a class="nav-item nav-link" href="#<%= recipe.name.parameterize %>">
-        <%= recipe.name %>
+    <% data.appetizers.chapter.recipes.each do |recipe| %>
+      <a class="nav-item nav-link" href="#<%= recipe.title.parameterize %>">
+        <%= recipe.title %>
       </a>
     <% end %>
   </nav>
 </div>
 
 <% order_last = true %>
-<% data.appetizers.recipes.each do |recipe| %>
+<% data.appetizers.chapter.recipes.each do |recipe| %>
   <div class="separator"></div>
 
   <div class="recipe row">
     <div class="title col-md-12">
-      <h2 id="<%= recipe.name.parameterize %>"><%= recipe.name %></h2>
+      <h2 id="<%= recipe.title.parameterize %>"><%= recipe.title %></h2>
     </div>
 
     <% if recipe.images.size > 0 %>
       <div class="image col-md-6 <%= order_last ? 'order-last' : '' %>">
         <% recipe.images.each do |image| %>
-          <img class="img-fluid" src="<%= image_path(image) %>" alt="<%= recipe.name %>"/>
+          <img class="img-fluid" src="<%= image_path(image) %>" alt="<%= recipe.title %>"/>
         <% end %>
       </div>
 
@@ -55,7 +55,9 @@ recipeCuisine: American
       </div>
       <div class="directions">
         <h4>Directions</h4>
-        <p><%= recipe.instructions %></p>
+        <% recipe.instructions.each do |inst| %>
+          <p><%= inst %></p>
+        <% end %>
       </div>
     </div>
   </div>
@@ -63,7 +65,7 @@ recipeCuisine: American
   <% if recipe.images.size > 0 && recipe.print_image == true %>
     <div class="print print-image row justify-content-center">
       <div class="image col-md-12">
-        <img src="<%= image_path(recipe.images.first) %>" alt="<%= recipe.name %>"/>
+        <img src="<%= image_path(recipe.images.first) %>" alt="<%= recipe.title %>"/>
       </div>
     </div>
   <% end %>

@@ -1,6 +1,9 @@
 ---
 title: Larson Recipes &middot; Cocktails
-color: green
+color: ice
+schema: true
+recipeCategory: cocktails
+recipeCuisine: American
 ---
 
 <div id="cocktails" class="section">
@@ -14,327 +17,70 @@ color: green
   </hgroup>
 
   <nav class="nav nav-pills nav-fill">
-    <a class="nav-item nav-link" href="#rons-bloody-mary">
-      Ron’s Bloody Mary
-    </a>
-    <a class="nav-item nav-link" href="#brandy-old-fashioned">
-      Brandy Old Fashioned
-    </a>
-    <a class="nav-item nav-link" href="#cherry-bounce">
-      Cherry Bounce
-    </a>
-    <a class="nav-item nav-link" href="#cranberry-margaritas">
-      Cranberry Margaritas
-    </a>
-    <a class="nav-item nav-link" href="#gazpacho-liquor">
-      Gazpacho Liquor
-    </a>
-    <a class="nav-item nav-link" href="#mulled-wine">
-      Mulled Wine
-    </a>
-    <a class="nav-item nav-link" href="#one-block-street">
-      One Block Street
-    </a>
-    <a class="nav-item nav-link" href="#michelada">
-      Michelada
-    </a>
+    <% data.cocktails.chapter.recipes.each do |recipe| %>
+      <a class="nav-item nav-link" href="#<%= recipe.title.parameterize %>">
+        <%= recipe.title %>
+      </a>
+    <% end %>
   </nav>
 </div>
 
-<div class="separator"></div>
+<% order_last = true %>
+<% data.cocktails.chapter.recipes.each do |recipe| %>
+  <div class="separator"></div>
 
-<div class="recipe row">
-  <div class="title col-md-12">
-    <h2 id="rons-bloody-mary">Ron’s Bloody Mary</h2>
-  </div>
+  <div class="recipe row">
+    <div class="title col-md-12">
+      <h2 id="<%= recipe.title.parameterize %>"><%= recipe.title %></h2>
+      <% if recipe.recipeYield %>
+        <p>Makes <%= recipe.recipeYield.join(" ") %></p>
+      <% end %>
+    </div>
 
-  <div class="image col-md-6 order-last web">
-    <img class="img-fluid" src="<%= image_path('bloody_mary.jpg') %>" alt="Bloody Mary"/>
-  </div>
+    <% if recipe.images.size > 0 %>
+      <div class="image col-md-6 <%= order_last ? 'order-last' : '' %>">
+        <% recipe.images.each do |image| %>
+          <img class="img-fluid" src="<%= image_path(image) %>" alt="<%= recipe.title %>"/>
+        <% end %>
+      </div>
 
-  <div class="instructions col-md-6">
-    <div class="ingredients">
-      <h3>Ingredients</h3>
-      <ul>
-        <li>1½ ounce vodka</li>
-        <li>3 ounces tomato juice</li>
-        <li>½ teaspoon Worchestershire</li>
-        <li>3 drops Tabasco</li>
-        <li>1 dash lemon juice</li>
-        <li>Options:
+      <% order_last = !order_last %>
+    <% end %>
+
+    <div class="instructions col-md-6">
+      <div class="ingredients">
+        <% recipe.ingredients.each do |list| %>
+          <h3><%= list.label %></h3>
           <ul>
-            <li>Horseradish</li>
-            <li>Dill pickle spear</li>
-            <li>Celery</li>
-            <li>Salt and pepper</li>
-          </ul></li>
-      </ul>
-    </div>
-
-    <div class="directions">
-      <h4>Directions</h4>
-      <p>Mix together. Serve over ice.</p>
-    </div>
-  </div>
-</div>
-
-<div class="recipe row">
-  <div class="title col-md-12">
-    <h2 id="brandy-old-fashioned">Brandy Old Fashioned</h2>
-  </div>
-
-  <div class="instructions col-md-6">
-    <div class="ingredients">
-      <h3>Ingredients</h3>
-      <ul>
-        <li>1 sugar cube (or 1 tsp sugar)</li>
-        <li>2-3 dashes of bitters</li>
-        <li>1 orange slice</li>
-        <li>1 marashino cherry</li>
-        <li>2 oz. brandy</li>
-        <li>Ice cubes</li>
-        <li>Options:
-          <ul>
-            <li>Sprite</li>
-            <li>7-Up</li>
-            <li>Squirt</li>
-            <li>Sour mix</li>
-            <li>Seltzer</li>
-          </ul></li>
-      </ul>
-    </div>
-
-    <div class="directions">
-      <h4>Directions</h4>
-      <p>Place sugar cube in bottom of cocktail glass. Add 2 or 3 dashes of bitters to the cube. Add orange slice and cherry, with a tiny bit of water. Muddle the ingredients, but be careful not to break the orange rind.</p>
-      <p>Add the brandy and ice.</p>
-      <p>Top with your choice of sweet soda, sour mix, or seltzer water.</p>
-      <p>Garnish it with additional orange slice and cherry</p>
-    </div>
-
-    <div class="notes">
-      <h5>Notes</h5>
-      <p>Living in Madison, Wisconsin for years you begin to learn the difference between sweet, sour, and pressed versions of this classic supper club drink. Scott Larson prefers to order his old fashioned pressed (less sweet, no sugary soda) with two olives. He tried to order this drink in a Minneapolis bar once and the server and bartender instantly disliked him.</p>
-    </div>
-  </div>
-</div>
-
-<div class="separator"></div>
-
-<div class="recipe row">
-  <div class="title col-md-12">
-    <h2 id="cherry-bounce">Cherry Bounce</h2>
-  </div>
-
-  <div class="image col-md-6">
-    <img class="img-fluid" src="<%= image_path('cherry_bounce.jpg') %>" alt="Cherry Bounce" />
-  </div>
-
-  <div class="instructions col-md-6">
-    <div class="ingredients">
-      <h3>Ingredients</h3>
-      <ul>
-        <li>4 cups sour cherries</li>
-        <li>1 quart vodka</li>
-        <li>1 cup sugar</li>
-        <li>½ cup water</li>
-      </ul>
-    </div>
-
-    <div class="directions">
-      <h4>Directions</h4>
-      <p>Stir together ingredients in a large glass jar until the sugar is fully dissolved. Place jar in a dark, cool cupboard. 5-6 months after mixing the drink will be ready to enjoy.</p>
-
-      <p>Find a sour cherry tree in July and pick 4 cups.  Mix cherries, vodka, sugar and water in a jar.  Store in a cool, dark basement until Christmas.  Spend the many months waiting looking for incredibly cute small cocktail glasses to serve the bounce with on Christmas Eve.</p>
-    </div>
-
-    <div class="notes">
-      <h5>Notes</h5>
-      <p>Don't be cheap! Buy a good brand of vodka. If you don't have a favorite, buy Smirnoff.</p>
-    </div>
-  </div>
-</div>
-
-<div class="separator"></div>
-
-<div class="recipe row">
-  <div class="title col-md-12">
-    <h2 id="cranberry-margaritas">Cranberry Margaritas</h2>
-  </div>
-
-  <div class="image col-md-6 order-last">
-    <img class="img-fluid" src="<%= image_path('cranberry_margaritas.png') %>" alt="Cranberry Margaritas" />
-  </div>
-
-  <div class="instructions col-md-6">
-    <div class="ingredients">
-      <h3>Ingredients</h3>
-      <ul>
-        <li>3 cups cranberry juice (100% juice)</li>
-        <li>1 1/2 cup fresh lime juice</li>
-        <li>1 1/2 cup tequila</li>
-        <li>1 cup orange-flavored liqueur (Cointreau or Triple Sec)</li>
-        <li>Ice cubes</li>
-      </ul>
-    </div>
-
-    <div class="directions">
-      <h4>Directions</h4>
-      <p>Stir together ingredients in a large glass jar. Enjoy!</p>
-    </div>
-
-    <div class="notes">
-      <h5>Notes</h5>
-      <p>This drink is a family favorite for Thanksgiving dinners or pre-dinner happy hour. Emily Larson began the tradition of fixing this cocktail every year for the Earnests' extended family Thanksgiving meal in Harrison, Arkansas.</p>
-    </div>
-  </div>
-</div>
-
-<div class="separator"></div>
-
-<div class="recipe row">
-  <div class="title col-md-12">
-    <h2 id="gazpacho-liquor">
-      Gazpacho Liquor</h2>
-  </div>
-
-  <div class="image col-md-6">
-    <div class="row">
-       <div class="col-md-6">
-         <img class="img-fluid" src="<%= image_path('gazpacho_liquor_1.jpg') %>" alt="Gazpacho Liquor 1"/>
-       </div>
-       <div class="col-md-6">
-         <img class="img-fluid" src="<%= image_path('gazpacho_liquor_2.jpg') %>" alt="Gazpacho Liquor 2" />
+            <% list.list.each do |item| %>
+              <li><%= item %></li>
+            <% end %>
+          </ul>
+        <% end %>
+      </div>
+      <div class="directions">
+        <h4>Directions</h4>
+        <% recipe.instructions.each do |inst| %>
+          <p><%= inst %></p>
+        <% end %>
+      </div>
+      <% if recipe.notes.present? %>
+        <div class="notes">
+          <h4>Notes</h4>
+          <% recipe.notes.each do |note| %>
+            <p><%= note %></p>
+          <% end %>
+        </div>
+      <% end %>
       </div>
     </div>
   </div>
 
-  <div class="instructions col-md-6">
-    <div class="ingredients">
-      <h3>Ingredients</h3>
-      <ul>
-        <li>750-ml bottle of vodka or tequila</li>
-        <li>3 large poblano chiles</li>
-        <li>1 red bell pepper, cut into quarters</li>
-        <li>4 tomatoes, halved</li>
-        <li>1 large Vidalia onion, cut into 1" slices</li>
-        <li>1 cucumber, peeled and halved lengthwise</li>
-        <li>2 celery stalks, trimmed</li>
-        <li>1 clove garlic, halved</li>
-      </ul>
+  <% if recipe.images.size > 0 && recipe.print_image == true %>
+    <div class="print print-image row justify-content-center">
+      <div class="image col-md-12">
+        <img src="<%= image_path(recipe.images.first) %>" alt="<%= recipe.title %>"/>
+      </div>
     </div>
-
-    <div class="directions">
-      <h4>Directions</h4>
-      <p>@TODO</p>
-    </div>
-  </div>
-</div>
-
-<div class="separator"></div>
-
-<div class="recipe row">
-  <div class="title col-md-12">
-    <h2 id="mulled-wine">Mulled Wine</h2>
-  </div>
-
-  <div class="instructions col-md-6">
-    <div class="ingredients">
-      <h3>Ingredients</h3>
-      <ul>
-        <li>1 cup water</li>
-        <li>1 cinnamon stick</li>
-        <li>4 cardamom seeds</li>
-        <li>2 cloves</li>
-        <li>1 heaped tablespoon honey</li>
-        <li>2 tablespoons homemade vanilla sugar, or 2 tablespoons vanilla and ¼ vanilla bean</li>
-        <li>1 bottle red wine</li>
-        <li>½ cup vodka (optional)</li>
-        <li>½ cup almonds</li>
-        <li>¼ cup raisins</li>
-        <li>1 orange sliced</li>
-      </ul>
-    </div>
-
-    <div class="directions">
-      <h4>Directions</h4>
-      <p>In a small pot, bring the water to a boil.  Add cinnamon, cardamom, cloves, honey and vanilla sugar and mix it well.  Let this sweet spice mixture boil for about 15 minutes to release the flavor of the spices.</p>
-
-      <p>Meanwhile, heat the red wine gently in a medium pot.  Make sure it does not reach more than 170, otherwise the alcohol will evaporate.  Add ⅓ of the sweet spice mixture.  Add almonds and raisins.  Add more spice mixture to taste, until the mulled wine has the sweetness to your liking.  Add the vodka.  Add a slice of orange to each cup, add mulled wine to serve.</p>
-    </div>
-
-    <div class="notes">
-      <h5>Notes</h5>
-      <p>This is one of Megan Larson's favorite Christmas beverages. It makes a great accompanyment to watching "It's a Wonderful Life" with her each year.</p>
-    </div>
-  </div>
-</div>
-
-<div class="separator"></div>
-
-<div class="recipe row">
-  <div class="title col-md-12">
-    <h2 id="one-block-street">One Block Street</h2>
-  </div>
-
-  <div class="image col-md-6 order-last">
-    <img class="img-fluid" src="<%= image_path('one_block_street.jpg') %>" alt="One Block Street" />
-  </div>
-
-  <div class="instructions col-md-6">
-    <div class="ingredients">
-      <h3>Ingredients</h3>
-      <ul>
-        <li>1 ½ ounces gin</li>
-        <li>1 ounce Gordy’s Fine Brine</li>
-        <li>½ ounce lime juice</li>
-        <li>¼ ounce rich simple syrup</li>
-        <li>2 dashes orange bitters</li>
-      </ul>
-    </div>
-
-    <div class="directions">
-      <h4>Directions</h4>
-      <p>Mix together. Serve over ice.</p>
-    </div>
-  </div>
-</div>
-
-<div class="separator"></div>
-
-<div class="recipe row">
-  <div class="title col-md-12">
-    <h2 id="michelada">Michelada</h2>
-  </div>
-
-  <div class="image col-md-6 web">
-    <img class="img-fluid" src="<%= image_path('michelada.jpg') %>" alt="Michelada" />
-  </div>
-
-  <div class="instructions col-md-6">
-    <div class="ingredients">
-      <h3>Ingredients</h3>
-      <ul>
-        <li>Lime glass/coarse salt</li>
-        <li>Little ice</li>
-      </ul>
-      <ul>
-        <li>2 dashes Maggi</li>
-        <li>2 dashes tobasco/hot sauce</li>
-        <li>2 dashes Worchestershire</li>
-        <li>Pinch salt</li>
-        <li>1 lime</li>
-        <li>⅓ cup clamato</li>
-        <li>Coarse pepper</li>
-        <li>Good, darker Mexican beer</li>
-      </ul>
-    </div>
-
-    <div class="directions">
-      <h4>Directions</h4>
-      <p>Mix together. Serve over ice.</p>
-    </div>
-  </div>
-</div>
-
-<div class="separator"></div>
+  <% end %>
+<% end %>

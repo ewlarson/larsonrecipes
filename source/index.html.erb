@@ -1,15 +1,16 @@
 ---
 title: Larson Recipes
+color: banana
 ---
 
 <div id="cover" class="row">
   <hgroup>
-  <h1 id="title" class="center">
-    Larson Recipes
-  </h1>
-  <h2 id="tagline" class="center">
-    Food and Love <br/> from 918 Melrose Drive
-  </h2>
+    <h1 id="title" class="center">
+      Larson Recipes
+    </h1>
+    <h2 id="tagline" class="center">
+      Food and Love <br/> from 918 Melrose Drive
+    </h2>
   </hgroup>
 
   <div class="row">
@@ -22,14 +23,14 @@ title: Larson Recipes
       <div class="mb-4 web">
         <h3>Table of Contents</h3>
         <nav class="nav flex-column">
-          <%= link_to("Appetizers", "/appetizers.html", class: "nav-link blue") %>
-          <%= link_to("Bread", "/bread.html", class: "nav-link pink") %>
-          <%= link_to("Cocktails", "/cocktails.html", class: "nav-link lightblue") %>
-          <%= link_to("Desserts", "/desserts.html", class: "nav-link purple") %>
-          <%= link_to("Main Dishes", "/main_dishes.html", class: "nav-link orange") %>
-          <%= link_to("Pickles", "/pickles.html", class: "nav-link green") %>
-          <%= link_to("Salads", "/salads.html", class: "nav-link lightgreen") %>
-          <%= link_to("Sides", "/sides.html", class: "nav-link lightblue") %>
+          <%= link_to("Appetizers", "/appetizers.html", class: "nav-link salmon") %>
+          <%= link_to("Bread", "/bread.html", class: "nav-link cantaloupe") %>
+          <%= link_to("Cocktails", "/cocktails.html", class: "nav-link ice") %>
+          <%= link_to("Desserts", "/desserts.html", class: "nav-link lavender") %>
+          <%= link_to("Main Dishes", "/main_dishes.html", class: "nav-link iron") %>
+          <%= link_to("Pickles", "/pickles.html", class: "nav-link honeydew") %>
+          <%= link_to("Salads", "/salads.html", class: "nav-link flora") %>
+          <%= link_to("Sides", "/sides.html", class: "nav-link carnation") %>
         </nav>
       </div>
     </div>
@@ -42,22 +43,6 @@ title: Larson Recipes
   </div>
 
   <div class="separator"></div>
-
-  <div id="toc" class="print">
-    <h3 id="toc-heading">Table of Contents</h3>
-    <nav id="toc-list" class="nav flex-column">
-      <ul>
-        <li><%= link_to("Appetizers", "#appetizers", class: "nav-link blue") %></li>
-        <li><%= link_to("Bread", "#bread", class: "nav-link pink") %></li>
-        <li><%= link_to("Cocktails", "#cocktails", class: "nav-link lightblue") %></li>
-        <li><%= link_to("Desserts", "#desserts", class: "nav-link purple") %></li>
-        <li><%= link_to("Main Dishes", "#main_dishes", class: "nav-link orange") %></li>
-        <li><%= link_to("Pickles", "#pickles", class: "nav-link green") %></li>
-        <li><%= link_to("Salads", "#salads", class: "nav-link lightgreen") %></li>
-        <li><%= link_to("Sides", "#sides", class: "nav-link lightblue") %></li>
-      </ul>
-    </nav>
-  </div>
 
   <p class="center web">&copy; <%= Time.now.year %> / The Larson Family</p>
 </div>

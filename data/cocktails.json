@@ -1,0 +1,228 @@
+{
+  "chapter": {
+    "title": "Cocktails",
+    "color": "green",
+    "schema": true,
+    "recipeCategory": "cocktails",
+    "recipeCuisine": "American",
+    "recipes": [
+      {
+        "title": "Ron’s Bloody Mary",
+        "author": "Ronald Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1½ ounce vodka",
+              "3 ounces tomato juice",
+              "½ teaspoon Worchestershire",
+              "3 drops Tabasco",
+              "1 dash lemon juice",
+              "Options: Horseradish, Dill pickle spear, Celery, Salt and pepper"
+            ]
+          }
+        ],
+        "instructions": [
+          "Mix together. Serve over ice."
+        ],
+        "images": [
+          "/images/bloody_mary.jpg"
+        ],
+        "notes": "",
+        "print_image": true
+      },
+      {
+        "title": "Brandy Old Fashioned",
+        "author": "Scott Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 sugar cube (or 1 tsp sugar)",
+              "2-3 dashes of bitters",
+              "1 orange slice",
+              "1 marashino cherry",
+              "2 oz. brandy",
+              "Ice cubes",
+              "Options: Sprite, 7-Up, Squirt, Sour mix, Seltzer"
+            ]
+          }
+        ],
+        "instructions": [
+          "Place sugar cube in bottom of cocktail glass. Add 2 or 3 dashes of bitters to the cube. Add orange slice and cherry, with a tiny bit of water. Muddle the ingredients, but be careful not to break the orange rind.",
+          "Add the brandy and ice.",
+          "Top with your choice of sweet soda, sour mix, or seltzer water.",
+          "Garnish it with additional orange slice and cherry"
+        ],
+        "images": [],
+        "notes": [
+          "Living in Madison, Wisconsin for years you begin to learn the difference between sweet, sour, and pressed versions of this classic supper club drink. Scott Larson prefers to order his old fashioned pressed (less sweet, no sugary soda) with two olives. He tried to order this drink in a Minneapolis bar once and the server and bartender instantly disliked him."
+        ],
+        "print_image": true
+      },
+      {
+        "title": "Cherry Bounce",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "4 cups sour cherries",
+              "1 quart vodka",
+              "1 cup sugar",
+              "½ cup water"
+            ]
+          }
+        ],
+        "instructions": [
+          "Stir together ingredients in a large glass jar until the sugar is fully dissolved. Place jar in a dark, cool cupboard. 5-6 months after mixing the drink will be ready to enjoy.",
+          "Find a sour cherry tree in July and pick 4 cups.  Mix cherries, vodka, sugar and water in a jar.  Store in a cool, dark basement until Christmas.  Spend the many months waiting looking for incredibly cute small cocktail glasses to serve the bounce with on Christmas Eve."
+        ],
+        "images": [
+          "/images/cherry_bounce.jpg"
+        ],
+        "notes": [
+          "Don't be cheap! Buy a good brand of vodka. If you don't have a favorite, buy Smirnoff."
+        ],
+        "print_image": true
+      },
+      {
+        "title": "Cranberry Margaritas",
+        "author": "Emily Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "3 cups cranberry juice (100% juice)",
+              "1 1/2 cup fresh lime juice",
+              "1 1/2 cup tequila",
+              "1 cup orange-flavored liqueur (Cointreau or Triple Sec)",
+              "Ice cubes"
+            ]
+          }
+        ],
+        "instructions": [
+          "Stir together ingredients in a large glass jar. Enjoy!"
+        ],
+        "images": [
+          "/images/cranberry_margaritas.png"
+        ],
+        "notes": [
+          "This drink is a family favorite for Thanksgiving dinners or pre-dinner happy hour. Emily Larson began the tradition of fixing this cocktail every year for the Earnests' extended family Thanksgiving meal in Harrison, Arkansas."
+        ],
+        "print_image": true
+      },
+      {
+        "title": "Gazpacho Liquor",
+        "author": "Scott Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "750-ml bottle of vodka or tequila",
+              "3 large poblano chiles",
+              "1 red bell pepper, cut into quarters",
+              "4 tomatoes, halved",
+              "1 large Vidalia onion, cut into 1\" slices",
+              "1 cucumber, peeled and halved lengthwise",
+              "2 celery stalks, trimmed",
+              "1 clove garlic, halved"
+            ]
+          }
+        ],
+        "instructions": [
+          "@TODO"
+        ],
+        "images": [
+          "/images/gazpacho_liquor_2.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Mulled Wine",
+        "author": "Megan Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 cup water",
+              "1 cinnamon stick",
+              "4 cardamom seeds",
+              "2 cloves",
+              "1 heaped tablespoon honey",
+              "2 tablespoons homemade vanilla sugar, or 2 tablespoons vanilla and ¼ vanilla bean",
+              "1 bottle red wine",
+              "½ cup vodka (optional)",
+              "½ cup almonds",
+              "¼ cup raisins",
+              "1 orange sliced"
+            ]
+          }
+        ],
+        "instructions": [
+          "In a small pot, bring the water to a boil.  Add cinnamon, cardamom, cloves, honey and vanilla sugar and mix it well.  Let this sweet spice mixture boil for about 15 minutes to release the flavor of the spices.",
+          "Meanwhile, heat the red wine gently in a medium pot.  Make sure it does not reach more than 170, otherwise the alcohol will evaporate.  Add ⅓ of the sweet spice mixture.  Add almonds and raisins.  Add more spice mixture to taste, until the mulled wine has the sweetness to your liking.  Add the vodka.  Add a slice of orange to each cup, add mulled wine to serve."
+        ],
+        "images": [],
+        "notes": [
+          "This is one of Megan Larson's favorite Christmas beverages. It makes a great accompanyment to watching \"It's a Wonderful Life\" with her each year."
+        ],
+        "print_image": true
+      },
+      {
+        "title": "One Block Street",
+        "author": "Scott Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 ½ ounces gin",
+              "1 ounce Gordy’s Fine Brine",
+              "½ ounce lime juice",
+              "¼ ounce rich simple syrup",
+              "2 dashes orange bitters"
+            ]
+          }
+        ],
+        "instructions": [
+          "Mix together. Serve over ice."
+        ],
+        "images": [
+          "/images/one_block_street.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Michelada",
+        "author": "Scott Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "Lime glass/coarse salt",
+              "Little ice",
+              "2 dashes Maggi",
+              "2 dashes tobasco/hot sauce",
+              "2 dashes Worchestershire",
+              "Pinch salt",
+              "1 lime",
+              "⅓ cup clamato",
+              "Coarse pepper",
+              "Good, darker Mexican beer"
+            ]
+          }
+        ],
+        "instructions": [
+          "Mix together. Serve over ice."
+        ],
+        "images": [
+          "/images/michelada.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      }
+    ]
+  }
+}

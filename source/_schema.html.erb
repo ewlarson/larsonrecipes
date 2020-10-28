@@ -1,10 +1,11 @@
-<% data.appetizers.recipes.each do |recipe| %>
+<% category = current_page.data.recipeCategory %>
+<% data.send(category).chapter.recipes.each do |recipe| %>
   <script type="application/ld+json">
     {
       "@context": "https://schema.org/",
       "@type": "Recipe",
-      "name": "<%= recipe.name %>",
-      "url": "<%= url_for("/#{current_page.data.recipeCategory}/##{recipe.name.parameterize}") %>",
+      "name": "<%= recipe.title %>",
+      "url": "<%= url_for("/#{current_page.data.recipeCategory}/##{recipe.title.parameterize}") %>",
       "image": <%= schema_images(recipe) %>,
       "author": {
           "@type": "Person",
@@ -16,7 +17,7 @@
           {
             "@type": "HowToStep",
             "name": "Directions",
-            "text": "<%= recipe.instructions %>"
+            "text": "<%= recipe.instructions.join("\n") %>"
           }
         ],
       "recipeCategory": "<%= current_page.data.recipeCategory %>",

@@ -10,34 +10,38 @@ body {
   font-size: 20px;
 }
 
-// ROYGBIV
-body.red { border-top: 0.5rem solid red; }
-body.orange { border-top: 0.5rem solid orange; }
-body.yellow { border-top: 0.5rem solid yellow; }
-body.green { border-top: 0.5rem solid green; }
-body.lightgreen { border-top: 0.5rem solid lightgreen; }
-body.lightblue { border-top: 0.5rem solid lightblue; }
-body.blue { border-top: 0.5rem solid blue; }
-body.pink { border-top:0.5rem solid pink; }
-body.indigo { border-top: 0.5rem solid indigo; }
-body.purple { border-top: 0.5rem solid purple; }
-
 // Crayons
-$carnation: #FF8AD8;
-$bubblegum: #FF85FF;
-$lavender: rgb(215, 131, 255);
-$flora: #73FA79;
+$carnation: rgb(255,138,216);     // #ff8ad8
+$bubblegum: rgb(255, 133, 255);   // #FF85FF
+$lavender: rgb(215, 131, 255);    // #D783FF
+$orchid: rgb(122,129,255);        // #7A81FF
+$sky: rgb(118,214,255);           // #76D6FF
+$ice: rgb(115,253,255);           // #73FDFF
+$spindrift: rgb(115,252,214);     // #73FCD6
+$flora: rgb(115,250,121);         // #73FA79
+$honeydew: rgb(212,251,121);      // #D4FB79
+$banana: rgb(255,252,121);        // #FFFC79
+$cantaloupe: rgb(255,212,121);    // #FFD479
+$salmon: rgb(255,126,121);        // #FF7E79
+$iron: #5E5E5E;                   // #5E5E5E
 
-a.nav-link.red { border-left: 4px solid red; }
-a.nav-link.orange { border-left: 4px solid orange; }
-a.nav-link.yellow { border-left: 4px solid yellow; }
-a.nav-link.green { border-left: 4px solid green; }
-a.nav-link.lightgreen { border-left: 4px solid lightgreen; }
-a.nav-link.lightblue { border-left: 4px solid lightblue; }
-a.nav-link.blue { border-left: 4px solid blue; }
-a.nav-link.pink { border-left: 4px solid pink; }
-a.nav-link.indigo { border-left: 4px solid indigo; }
-a.nav-link.purple { border-left: 4px solid purple; }
+body.salmon { border-top: 0.5rem solid $salmon; }
+body.cantaloupe { border-top: 0.5rem solid $cantaloupe; }
+body.ice { border-top: 0.5rem solid $ice; }
+body.lavender { border-top: 0.5rem solid $lavender; }
+body.iron { border-top: 0.5rem solid $iron; }
+body.honeydew { border-top: 0.5rem solid $honeydew; }
+body.flora { border-top: 0.5rem solid $flora; }
+body.carnation { border-top:0.5rem solid $carnation; }
+
+a.nav-link.salmon { border-left: 4px solid $salmon; }
+a.nav-link.cantaloupe { border-left: 4px solid $cantaloupe; }
+a.nav-link.ice { border-left: 4px solid $ice; }
+a.nav-link.lavender { border-left: 4px solid $lavender; }
+a.nav-link.iron { border-left: 4px solid $iron; }
+a.nav-link.honeydew { border-left: 4px solid $honeydew; }
+a.nav-link.flora { border-left: 4px solid $flora; }
+a.nav-link.carnation { border-left: 4px solid $carnation; }
 
 hgroup {
   text-align:center;

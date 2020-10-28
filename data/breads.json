@@ -1,0 +1,181 @@
+{
+  "chapter": {
+    "title": "Breads",
+    "color": "blue",
+    "schema": true,
+    "recipeCategory": "breads",
+    "recipeCuisine": "American",
+    "recipes": [
+      {
+        "title": "Apricot Nut Bread",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 12-ounce can apricot nectar",
+              "¾ cup snipped dried apricots",
+              "½ cup raisins",
+              "2 cups all-purpose flour",
+              "1 cup sugar",
+              "1 tablespoon baking powder",
+              "1 beaten egg",
+              "⅓ cup milk",
+              "2 tablespoons cooking oil",
+              "½ cup chopped almonds"
+            ]
+          }
+        ],
+        "instructions": [
+          "In saucepan combine 1 cup of the apricot nectar, apricots, and raisins; bring to boil.  Cool.  In bowl stir together flour, sugar, baking powder, and ½ teaspoon salt.  Combine egg, milk, oil and remaining nectar.  Add to dry ingredients, stirring just till smooth.  Fold in raisin mixture and nuts.  Turn into greased and floured 9x5x3-inch loaf pan.  Bake at 350 degrees for 60 minutes.  Cool in pan 10 minutes; remove loaf.  Cool.  Wrap and store overnight before slicing."
+        ],
+        "images": [
+          "/images/apricot_nut_bread_recipe.jpg"
+        ],
+        "print_image": false,
+        "notes": ""
+      },
+      {
+        "title": "Banana Bread",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 cup sugar",
+              "1 ¼ cup flour",
+              "½ cup vegetable oil",
+              "½ teaspoon salt",
+              "1 teaspoon baking soda",
+              "2 eggs",
+              "3 bananas"
+            ]
+          }
+        ],
+        "instructions": [
+          "Blend well, bake 350 degrees for 1 hour."
+        ],
+        "images": [
+          "/images/banana_bread.jpg"
+        ],
+        "print_image": true,
+        "notes": ""
+      },
+      {
+        "title": "Cheese Pretzels",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 package yeast",
+              "1 tablespoon sugar",
+              "2 cups cheddar cheese, shredded",
+              "1 teaspoon salt",
+              "4-5 cups flour",
+              "1 egg"
+            ]
+          }
+        ],
+        "instructions": [
+          "Dissolve yeast and sugar in 1½ cups warm water. Add 2 cups cheese, salt, and flour.",
+          "Knead the two mixtures together, about 5 minutes, until elastic. Add flour as needed to keep from becoming too sticky.",
+          "Shape pretzels and brush with egg. Salt the tops. Do not allow rising time. Bake 10-15 minutes at 425° on greased cookie sheet."
+        ],
+        "images": [
+          "/images/cheese_pretzels.jpg"
+        ],
+        "print_image": true,
+        "notes": ""
+      },
+      {
+        "title": "Grandma Brower’s Butter Horn Rolls",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 cake compressed yeast or cake dry yeast",
+              "1¼ teaspoons salt",
+              "4-4½ cups flour",
+              "½ cup melted shortening",
+              "¼ cup sugar",
+              "3 eggs, well beaten",
+              "1 cup milk, scalded"
+            ]
+          }
+        ],
+        "instructions": [
+          "Soften yeast in lukewarm milk. If compressed yeast is used, allow to stand 5 minutes. If dry yeast is used allow to stand 30 minutes. Add salt, shortening, sugar, and eggs. Add flour, a little at a time, beating thoroughly after each addition until the dough is just stiff enough to knead on lightly floured board. Knead until smooth and elastic. Cover with a damp cloth, set in a warm place, and allow to rise until doubled in bulk. (The dough made with dry yeast will need to rise overnight in warm place.) Work down. Allow to rise a second time. Turn onto lightly floured board. Roll out in circular shape. Cut into sections as you would pie, having each section about 3 inches wide at the outer edge. Begin at the outside and roll each section toward the center. Form into crescents. Place in well-oiled baking pans. Cover and let rise until triple in bulk. Bake in hot oven at 450° for 12-15 minutes.",
+          "You can substitute whole wheat flour for ½ the white flour in the Buttern Horn Roll recipe. Add sufficient white flour to make a dough just stiff enough to knead. Proceed as you would for Butter Horn Rolls."
+        ],
+        "images": [
+          "/images/butter_horn_rolls.jpg"
+        ],
+        "print_image": false,
+        "notes": "",
+        "recipeYield": ["16 rolls"]
+      },
+      {
+        "title": "Oatmeal Blueberry Muffins",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 cup + 2 tablespoons flour",
+              "6 ounces oatmeal",
+              "⅓ cup + 1 tablespoon sugar (reserved)",
+              "1 tablespoon baking powder",
+              "½ teaspoon salt",
+              "1 cup milk",
+              "1 egg",
+              "¼ cup vegetable oil",
+              "1 cup blueberries",
+              "1 teaspoon cinnamon"
+            ]
+          }
+        ],
+        "instructions": [
+          "Preheat oven to 425 degrees. Line muffin cups with paper (or grease instead). Mix dry ingredients. Combine wet ingredients and add to dry. Fold in blueberries. Fill muffin cups ⅔ full. Combine reserved 1 tablespoon sugar with 1 teaspoon cinnamon. Sprinkle over muffins. Bake 20 minutes. (188 calories if using skim milk)"
+        ],
+        "images": [
+          "/images/oatmeal_blueberry_muffins.jpg"
+        ],
+        "print_image": true,
+        "notes": ""
+      },
+      {
+        "title": "Red Onion Fontina Sake Focaccia",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 package dry yeast",
+              "Dash of sugar",
+              "¾ cup warm water (100-110 degrees)",
+              "2 ¾ cups flour",
+              "4 teaspoons cornmeal",
+              "1 teaspoon salt",
+              "½ cup warm sake (100-110 degrees)",
+              "1 ½ cups vertically sliced red onion",
+              "½ teaspoon sake",
+              "½ teaspoon olive oil",
+              "Dash of black pepper",
+              "1 teaspoon water",
+              "1 egg, lightly beaten",
+              "1 ¾ cups (7 ounces) shredded fontina cheese"
+            ]
+          }
+        ],
+        "instructions": [
+          "Dissolve yeast and sugar in warm water; let stand for 5 minutes. Combine 2 ½ cups flour, cornmeal and salt and stir well. Stir warm sake into yeast mixture; immediately add to flour mixture and stir to combine. Knead dough for 8 minutes on floured surface. Add remaining flour if needed (dough will feel sticky). Place dough in bowl coated with oil. Cover and let rise for 30 minutes. Preheat oven to 400 degrees. Turn dough out onto baking sheet coated with 1 tablespoon cornmeal. Gently press into 12-inch circle. Let rise for 15 minutes. Combine red onion, ½ teaspoon sake, olive oil, and black pepper. Mix beaten egg with 1 tablespoon water and gently brush dough. Top dough with cheese, then onions. Sprinkle with thyme and 1 teaspoon kosher salt. Bake for 35 minutes until focaccia is deep golden brown and cheese is bubbly."
+        ],
+        "images": [],
+        "print_image": false,
+        "notes": ""
+      }
+    ]
+  }
+}

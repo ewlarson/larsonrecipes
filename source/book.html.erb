@@ -3,6 +3,47 @@ layout: book
 ---
 
 <%= partial "index" %>
+
+<section class="background basement-wallpaper" /></section>
+<section class="background basement-wallpaper" /></section>
+
+<div id="toc" class="print">
+  <h3 id="toc-heading">Table of Contents</h3>
+  <nav id="toc-list" class="nav flex-column">
+    <ul>
+      <li><%= link_to("Appetizers", "#appetizers", class: "nav-link salmon") %></li>
+      <li><%= link_to("Bread", "#bread", class: "nav-link cantaloupe") %></li>
+      <li><%= link_to("Cocktails", "#cocktails", class: "nav-link ice") %></li>
+      <li><%= link_to("Desserts", "#desserts", class: "nav-link lavender") %></li>
+      <li><%= link_to("Main Dishes", "#main_dishes", class: "nav-link iron") %></li>
+      <li><%= link_to("Pickles", "#pickles", class: "nav-link honeydew") %></li>
+      <li><%= link_to("Salads", "#salads", class: "nav-link flora") %></li>
+      <li><%= link_to("Sides", "#sides", class: "nav-link carnation") %></li>
+    </ul>
+  </nav>
+</div>
+
+<section class="leader salmon"></section>
 <%= partial "appetizers" %>
+<section class="background" id="aluminum-collection" /></section>
+
+<section class="leader cantaloupe"></section>
 <%= partial "bread" %>
+
+<section class="leader ice"></section>
 <%= partial "cocktails" %>
+
+<section class="leader lavender"></section>
+<%= partial "desserts" %>
+
+<section class="leader honeydew"></section>
+<%= partial "pickles" %>
+
+<section class="leader flora"></section>
+<%= partial "salads" %>
+
+<!--<section class="background" id="moon-plate" /></section>-->
+<!--<section class="background" id="antelope" /></section>-->
+<!--<section class="background" id="basement-wallpaper" /></section>-->
+<!--<section class="background" id="basement-carpet" /></section>-->
+<!--<section class="background" id="microwave" /></section>-->
