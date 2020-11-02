@@ -2,7 +2,7 @@ require 'nokogiri'
 require 'open-uri'
 require 'json'
 
-doc = Nokogiri::HTML(URI.open("http://localhost:4567/salads/"))
+doc = Nokogiri::HTML(URI.open("http://localhost:4567/main_dishes/"))
 chapter = Hash.new
 recipes = Array.new
 

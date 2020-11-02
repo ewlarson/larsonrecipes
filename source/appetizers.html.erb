@@ -6,67 +6,13 @@ recipeCategory: appetizers
 recipeCuisine: American
 ---
 
-<div id="appetizers" class="section">
+<div id="appetizers-section" class="section">
   <hgroup>
     <h1>
       <%=link_to('Larson Recipes', '/')%>
     </h1>
-    <h2>Appetizers</h2>
+    <h2 id="appetizers">Appetizers</h2>
   </hgroup>
 
-  <nav class="nav nav-pills nav-fill">
-    <% data.appetizers.chapter.recipes.each do |recipe| %>
-      <a class="nav-item nav-link" href="#<%= recipe.title.parameterize %>">
-        <%= recipe.title %>
-      </a>
-    <% end %>
-  </nav>
+  <%= partial "book_section", locals: {category: 'appetizers'} %>
 </div>
-
-<% order_last = true %>
-<% data.appetizers.chapter.recipes.each do |recipe| %>
-  <div class="separator"></div>
-
-  <div class="recipe row">
-    <div class="title col-md-12">
-      <h2 id="<%= recipe.title.parameterize %>"><%= recipe.title %></h2>
-    </div>
-
-    <% if recipe.images.size > 0 %>
-      <div class="image col-md-6 <%= order_last ? 'order-last' : '' %>">
-        <% recipe.images.each do |image| %>
-          <img class="img-fluid" src="<%= image_path(image) %>" alt="<%= recipe.title %>"/>
-        <% end %>
-      </div>
-
-      <% order_last = !order_last %>
-    <% end %>
-
-    <div class="instructions col-md-6">
-      <div class="ingredients">
-        <% recipe.ingredients.each do |list| %>
-          <h3><%= list.label %></h3>
-          <ul>
-            <% list.list.each do |item| %>
-              <li><%= item %></li>
-            <% end %>
-          </ul>
-        <% end %>
-      </div>
-      <div class="directions">
-        <h4>Directions</h4>
-        <% recipe.instructions.each do |inst| %>
-          <p><%= inst %></p>
-        <% end %>
-      </div>
-    </div>
-  </div>
-
-  <% if recipe.images.size > 0 && recipe.print_image == true %>
-    <div class="print print-image row justify-content-center">
-      <div class="image col-md-12">
-        <img src="<%= image_path(recipe.images.first) %>" alt="<%= recipe.title %>"/>
-      </div>
-    </div>
-  <% end %>
-<% end %>

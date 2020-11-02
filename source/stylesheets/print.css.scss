@@ -36,7 +36,7 @@ $iron: #5E5E5E;                   // #5E5E5E
       height: 1cm;
       vertical-align: middle;
       width: 100%;
-      font-size:8pt;
+      font-size:10pt;
     }
   }
 
@@ -49,7 +49,7 @@ $iron: #5E5E5E;                   // #5E5E5E
       height: 1cm;
       vertical-align: middle;
       width: 100%;
-      font-size:8pt;
+      font-size:10pt;
     }
   }
 
@@ -59,6 +59,16 @@ $iron: #5E5E5E;                   // #5E5E5E
     background: lightblue image-url("thanksgiving_background.jpg") no-repeat fixed center;
 
     @bottom-right {
+      background: none;
+      content: ''; }
+  }
+
+  @page cover {
+    margin-left: 0.375in;
+    margin-right: 0;
+    background: lightblue image-url("thanksgiving_background.jpg") no-repeat fixed center;
+
+    @bottom-left {
       background: none;
       content: ''; }
   }
@@ -86,19 +96,9 @@ $iron: #5E5E5E;                   // #5E5E5E
     background-color: transparent;
   }
 
-  .web {
-    display: none;
-  }
-
-  .print {
-    display: block !important;
-  }
-
-  // Blank page
-  .blank {
-    page: blank;
-  }
-
+  .web { display: none; }
+  .print { display: block !important; }
+  .blank { page: blank; }
 
   a {
     &:not(.btn) {
@@ -110,81 +110,68 @@ $iron: #5E5E5E;                   // #5E5E5E
     h1 { display: none; }
     h2 {
       font-size: 42pt;
-      margin-top: 32pt;
+      margin-top: 12pt;
       string-set: heading content();
-    }
-
-    nav {
-      display: none;
     }
   }
 
   div.recipe {
+    page-break-before: always;
+    page-break-after: always;
+    width: 100%;
 
     div.title h2 {
-      page-break-before: always;
-      margin-top: 10pt;
-      font-size: 20pt;
+      font-size: 22pt;
       color: $iron;
+      margin-bottom: 0;
+      padding-bottom: 0;
     }
 
     div.title p {
-      font-size: 8pt;
+      font-size: 12pt;
       font-style: italic;
       margin-bottom: 0;
     }
 
     img {display: none;}
 
-    div.instructions-full-width {
-      width: 100%;
-      float: left;
-
-      h3, h4, h5 {
-        font-size: 11pt;
-        margin-top: 0;
-        color: $salmon;
-      }
-
-      .directions, .notes {
-        width: 100%;
-        // margin-left:10pt;
-        float: left;
-        font-size: 9pt;
-      }
-    }
-
     div.instructions {
       width: 100%;
-      float: left;
-
-      font-size: 10pt;
+      font-size: 14pt;
 
       h3, h4, h5 {
-        font-size: 11pt;
+        font-size: 13pt;
         margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 4pt;
+        padding-bottom: 0;
         color: $salmon;
       }
 
       .ingredients {
-        width: 40%;
-        float: left;
-        font-size: 8pt;
+        width: 100%;
+        font-size: 13pt;
+
+        ul { column-count: 2 }
       }
 
-      .ingredients:nth-of-type(2) {
-        float: right;
-      }
-
-      .directions {
-        width: 56%;
-        margin-left:10pt;
-        float: right;
-        font-size: 9pt;
+      .directions, .notes {
+        width: 100%;
+        font-size: 14pt;
+        p:first-of-type {
+          margin-top:0;
+          padding-top:0;
+        }
+        dl {
+          margin-top:0;
+          padding-top:0;
+          dt {
+            font-weight: bold;
+          }
+        }
       }
 
       .notes {
-        clear: both;
         width: 100%;
       }
 
@@ -204,9 +191,9 @@ $iron: #5E5E5E;                   // #5E5E5E
 
   .separator { display: none; }
 
-
   #cover {
     padding-top:320pt;
+    page: cover;
 
     hgroup {
       background-color: #f6f3ee;
@@ -245,7 +232,7 @@ $iron: #5E5E5E;                   // #5E5E5E
     margin-bottom:20pt;
   }
 
-  #appetizers, #bread, #cocktails-leader {
+  #cocktails-leader {
     page-break-before: always;
     page-break-after: always;
     break-before: right;
@@ -310,8 +297,14 @@ $iron: #5E5E5E;                   // #5E5E5E
     height: 216mm;
   }
 
-  #basement-carpet.background {
+  .background.basement-carpet {
     background: lightblue image-url("backgrounds/basement_carpet.jpeg") no-repeat center;
+    background-size: cover;
+    height: 216mm;
+  }
+
+  .background.thanksgiving-table {
+    background: lightblue image-url("backgrounds/thanksgiving_table.jpeg") no-repeat center;
     background-size: cover;
     height: 216mm;
   }
@@ -338,6 +331,22 @@ $iron: #5E5E5E;                   // #5E5E5E
           float: right;
         }
       }
+    }
+  }
+
+  // Chapter Nav
+  .section nav {
+    a {
+      display: block;
+      width: 100%;
+      font-size: 12pt;
+      border-bottom: 2px dotted #ccc;
+    }
+
+    a::after {
+      color: black;
+      content: leader('.') target-counter(attr(href), page);
+      float: right;
     }
   }
 

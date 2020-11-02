@@ -72,15 +72,15 @@ recipeCuisine: American
           <% end %>
         </div>
       <% end %>
-      </div>
     </div>
   </div>
 
-  <% if recipe.images.size > 0 && recipe.print_image == true %>
-    <div class="print print-image row justify-content-center">
-      <div class="image col-md-12">
-        <img src="<%= image_path(recipe.images.first) %>" alt="<%= recipe.title %>"/>
+    <% if recipe.images.size > 0 && recipe.print_image == true %>
+      <div class="print print-image row justify-content-center">
+        <div class="image col-md-12">
+          <img src="<%= image_path(recipe.images.first) %>" alt="<%= recipe.title %>"/>
+        </div>
       </div>
-    </div>
+    <% end %>
   <% end %>
-<% end %>
+</div>

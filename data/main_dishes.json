@@ -1,0 +1,1045 @@
+{
+  "chapter": {
+    "title": "Main Dishes",
+    "color": "blue",
+    "schema": true,
+    "recipeCategory": "main dishes",
+    "recipeCuisine": "American",
+    "recipes": [
+      {
+        "title": "Apricot Pork Medallions",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 pound pork tenderloin",
+              "2 tablespoons butter, divided",
+              "½ cup dried apricots, chopped",
+              "2 green onions, sliced",
+              "¼ teaspoon dry ginger",
+              "1 teaspoon red wine vinegar",
+              "2 teaspoon brown sugar",
+              "A dash of hot sauce"
+            ]
+          }
+        ],
+        "instructions": [
+          "Cut tenderloin into 1” pieces. Flatten slightly with heel of hand. Heat 1 tablespoon butter in large skillet over medium-high heat. Brown medallions, about 2 minutes on each side. Add remaining ingredients to skillet with remaining butter. Cover and simmer for 3-4 minutes. Remove medallions to serving platter, spoon sauce over."
+        ],
+        "images": [
+          "/images/apricot_pork_medallions.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Artichoke, Spinach, and Feta Stuffed Shells",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 teaspoon dried oregano",
+              "¼ cup chopped pepperoncini peppers, chopped",
+              "28 ounce can fire-roasted crushed tomatoes with added puree",
+              "8 ounce can no-salt-added tomato sauce",
+              "1 cup shredded provolone cheese, divided",
+              "1 cup feta cheese, crumbled",
+              "½ cup (4 ounces) cream cheese",
+              "¼ teaspoon black pepper",
+              "1 can artichoke hearts or 9 ounces frozen, chopped",
+              "½ package frozen spinach",
+              "2 garlic cloves, minced",
+              "20 cooked jumbo shell pasta"
+            ]
+          }
+        ],
+        "instructions": [
+          "Preheat oven to 375 degrees. Combine oregano, pepperoncini, and tomatoes in a saucepan and cook for 12 minutes until slightly thick. Combine and mix ½ cup provolone, feta, cream cheese, black pepper, artichokes, spinach, and garlic. Spoon or pipe ~ 2 tablespoons cheese mixture into each pasta shell. Place shells in greased 13 x 9 inch baking dish and spoon tomato mixture over shells. Sprinkle with remaining ½ cup provolone and bake for 25 minutes until heated through and cheese is melted."
+        ],
+        "images": [
+          "/images/artichoke_spinach_and_feta_stuffed_shells.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Barbeque Ribs",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "6 racks pork ribs (4-6 pounds baby back ribs or 6-8 pounds spareribs)",
+              "¼ cup paprika",
+              "1½ tablespoons freshly ground black pepper",
+              "1½ tablespoons firmly packed dark brown sugar",
+              "1 tablespoon salt",
+              "1½ teaspoons celery salt",
+              "1½ teaspoons cayenne pepper",
+              "1½ teaspoons garlic powder",
+              "1½ teaspoons dry mustard",
+              "1½ teaspoons ground cumin"
+            ]
+          },
+          {
+            "label": "Mop Sauce (optional)",
+            "list": [
+              "2 cups cider vinegar",
+              "½ cup yellow (ballpark) mustard",
+              "2 teaspoons salt"
+            ]
+          }
+        ],
+        "instructions": [
+          "Remove the thin, papery skin from the back of each rack of ribs by pulling it off in a sheet with your fingers, using the corner of a kitchen towel to gain a secure grip, or with pliers. Combine the ingredients for the rub in a small bowl and whisk to mix. Rub two thirds of this mixture over the ribs on both sides, then transfer the ribs to a roasting pan. Cover and let marinate, in the refrigerator, 4 to 8 hours.",
+          "Set up the grill for indirect grilling, place a large drip pan in the center. If using a charcoal grill, preheat it to medium. IIf using a gas grill, place the wood chips in the smoker box and preheat the grill to high; when smoke appears, reduce the heat to medium.",
+          "When ready to cook, if using charcoal, toss half the wood chips on the coals. Oil the grill grate. Arrange the ribs on the hot grate over the drip pan. Cover the grill and smoke-cook the ribs for 1 hour."
+        ],
+        "images": [
+          "/images/barbeque_ribs.jpg"
+        ],
+        "notes": [
+          "Added molasses and brown sugar to sauce. Alternative cooking method: Oven, 300°, 2 hours. “Worked good”."
+        ],
+        "print_image": true
+      },
+      {
+        "title": "Super Beef Stroganoff",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "¼ cup minced onions",
+              "½ cup butter",
+              "½ pound mushrooms, sliced",
+              "1 pound round steak, cut in ½ inch strips",
+              "2 tablespoons flour",
+              "½ teaspoon salt",
+              "Dash pepper",
+              "⅛ teaspoon garlic powder",
+              "½ teaspoon dry mustard",
+              "1 tablespoon tomato paste",
+              "½ cup beef consume",
+              "½ cup dry white wine",
+              "½ cup sour cream",
+              "3 tablespoons sherry"
+            ]
+          }
+        ],
+        "instructions": [
+          "Sauté onions in butter for 10 minutes. Add mushrooms, cover and continue cooking for 5 minutes. Remove onions and mushrooms to a bowl. Brown meat in the same skillet over low heat, then blend in flower with the fat left in the pan. Add seasonings, onions and mushrooms, tomato paste, consume, and white wine. Simmer gently for 1 hour until meat is tender.",
+          "Just before serving, stir in sour cream and sherry. Heat, but do not let boil. Serve on rice or broad noodles."
+        ],
+        "images": [
+          "/images/beef_stroganoff.jpg"
+        ],
+        "notes": [
+          "Very good! Source: Bon Appetit"
+        ],
+        "print_image": true
+      },
+      {
+        "title": "Broccoli Walnut Noodles",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "12-ounce extra wide curly noodles",
+              "2 pounds broccoli, steamed, using both florets and peeled stems cut into ½-inch slices",
+              "½ cup chopped walnuts",
+              "2 tablespoons olive oil",
+              "Juice of 1 lemon",
+              "Juice of ½ orange",
+              "Grated zest of 1 lemon",
+              "½ teaspoon ground pepper"
+            ]
+          }
+        ],
+        "instructions": [
+          "Cook noodles al dente, about 5 minutes. Steam broccoli until tender, 3 to 5 minutes.",
+          "Heat olive oil over medium-high heat and add walnuts. Sauté about 1 minute. Combine noodles and broccoli. Add walnut-oil mixture and toss well. Add citrus juices, zest, and pepper and toss well again.",
+          "Optional: Add ½ cup diced smoked turkey, low-fat chicken sausage or seasoned tofu."
+        ],
+        "images": [
+          "/images/broccoli_walnut_noodles.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Crisp Cheese-filled Eggplant Sandwiches with Pomegranate Molasses",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "Large eggplant cut into ⅓ inch rounds, soaked in water briefly",
+              "½ cup finely chopped onion",
+              "3 cloves garlic, minced",
+              "5 tablespoons olive oil",
+              "2 cups panko",
+              "2 teaspoons salt",
+              "½ teaspoon black pepper",
+              "1 cup flour",
+              "1 egg + 1 tablespoon water",
+              "5 ounces goat cheese",
+              "1 cup sharp provolone, shredded",
+              "2 tablespoons parsley",
+              "2 tablespoons basil",
+              "Pomegranate molasses (small bottle pomegranate juice reduced until syrupy)"
+            ]
+          }
+        ],
+        "instructions": [
+          "Preheat oven to 450 degrees. Place flour in bowl, and beaten egg +water in second bowl. Mix panko, salt, and pepper in third bowl. Dip eggplant in flour, then, egg, then panko. Place on drying racks on baking sheet, 12 minutes per side. Saute onion and garlic, cool a bit, add cheeses and herbs. Make sandwiches with cheese and onion filling. Bake 15 additional minutes. Drizzle with molasses."
+        ],
+        "images": [],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Crock-Pot Stew",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 lb beef?",
+              "Carrots",
+              "Potatoes",
+              "Package of dry french onion dip?"
+            ]
+          }
+        ],
+        "instructions": [
+          "@TODO"
+        ],
+        "images": [],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Chicken Picata",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "4 breasts",
+              "½ cup mixture flour, salt, pepper, butter, and oil",
+              "2-4 tablespoons madeira wine",
+              "3 tablespoons fresh lemon",
+              "3-4 tablespoons capers"
+            ]
+          }
+        ],
+        "instructions": [
+          "Place breasts between two sheets and pound until ¼-inch thick. Shake and coat with flour mixture.",
+          "Heat butter and oil. Sauté a few at a time, 2 to 3 minutes per side; drain and keep warm.",
+          "Drain all but 2 tablespoons fat. Stir in madeira. Add lemon juice. Return chicken and heat until sauce thickens. Add lemon slices and capers."
+        ],
+        "images": [
+          "/images/chicken_picata_front.jpg",
+          "/images/chicken_picata_back.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Texas Chili (Lone Star Beer)",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "2 tablespoons vegetable oil",
+              "2 cups of beef, cubed",
+              "1 cup onions",
+              "1 green pepper",
+              "1 clove garlic, minced",
+              "1 12 ounce can tomato paste",
+              "2 jalapenos",
+              "1 ½ tablespoons chili powder",
+              "½ teaspoon crushed red pepper",
+              "½ teaspoon salt",
+              "½ teaspoon dried oregano",
+              "½ teaspoon cumin",
+              "1 15 ounce can of pinto beans, drained"
+            ]
+          }
+        ],
+        "instructions": [
+          "Brown meat, onions, bell pepper and garlic. 5 minutes.  Add all remaining except beans for 1 ½ hours.  Add beans for another ½ hour."
+        ],
+        "images": [],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Crepes",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "2 large eggs",
+              "¾ cup milk",
+              "1 cup flour",
+              "3 tablespoon melted butter"
+            ]
+          }
+        ],
+        "instructions": [
+          "Butter pan, add 1 ounce batter, cook for 10 seconds, flip to cook other side.",
+          "Serve with thawed and microwaved frozen strawberries and freshly made whipped cream.  Megan gets butter and sugar, though."
+        ],
+        "images": [
+          "/images/crepes.jpg"
+        ],
+        "notes": [
+          "Served every Christmas morning after presents."
+        ],
+        "print_image": true
+      },
+      {
+        "title": "Dillon Egg",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 Egg"
+            ]
+          }
+        ],
+        "instructions": [
+          "Spray a coffee mug with Pam. Crack egg into the mug. Beat egg and microwave 1 minute. Good for dogs and young children."
+        ],
+        "images": [],
+        "notes": [
+          "Named for our first dog, Dillon, who as named after one of our favorite camping locations: Dillon, CO."
+        ],
+        "print_image": true
+      },
+      {
+        "title": "French Toast",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "4 thick slices sourdough bread, preferably stale",
+              "2 large eggs",
+              "¼ cup milk",
+              "1 teaspoon sugar",
+              "½ teaspoon cinnamon",
+              "½ teaspoon real vanilla extract",
+              "1 tablespoon vegetable oil"
+            ]
+          }
+        ],
+        "instructions": [
+          "Beat eggs milk, sugar, cinnamon, and vanilla in a bowl. Soak bread in egg mixture until saturated. Fry in oil until browned, 5 minutes a side. Serve buttered, with real maple syrup and a sprinkle of powdered sugar."
+        ],
+        "images": [
+          "/images/french_toast.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "German Puffed Apple Pancake",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1C whole milk",
+              "4 large eggs",
+              "3T sugar",
+              "1t vanilla extract",
+              "1/2t salt",
+              "1/4t ground cinnamon",
+              "2/3C All purpose flour",
+              "4T unsalted butter",
+              "12oz. Golden Delicious apples, peeled, cored, thinly sliced",
+              "3T (packed) golden brown sugar",
+              "Powdered sugar (optional)"
+            ]
+          }
+        ],
+        "instructions": [
+          "Preheat oven to 425 degrees. Whisk, milk eggs, sugar, vanilla, salt, and cinnamon in large bowl until well blended. Add flour and whisk until batter is smooth. Place butter in a 13x9-inch glass baking dish. Place dish in oven until butter melts, about 5 minutes. Remove dish from oven. Place apple slices in overlapping rows atop melted butter in baking dish. Return to oven and bake until apples begin to soften slightly and butter is bubbling and beginning to brown around edges of dish, about 10 minutes. Pour batter over apples in dish and sprinkle with brown sugar. Bake pancake until puffed and brown, about 20 minutes. Sprinkle with powdered sugar, if desired. Serve warm."
+        ],
+        "images": [
+          "/images/german_puffed_apple_pancake.jpg"
+        ],
+        "notes": [
+          "Bon Appetit recipe"
+        ],
+        "print_image": true
+      },
+      {
+        "title": "Ginger Shrimp Pot Stickers",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "Pot Stickers",
+              "¾ cup shredded green cabbage",
+              "⅓ cup chopped green onions",
+              "¼ cup matchstick-cut carrots",
+              "2 tablespoons chopped fresh cilantro",
+              "1 teaspoon low-sodium soy sauce",
+              "2 teaspoons minced peeled fresh ginger",
+              "1 teaspoon dark sesame oil",
+              "½ teaspoon salt",
+              "½ pound cooked peeled small shrimp",
+              "Dash hot sauce",
+              "24 wonton wrappers",
+              "2 tablespoons cornstarch",
+              "1 tablespoon canola oil, divided",
+              "1 cup water, divided"
+            ]
+          },
+          {
+            "label": "Sauce",
+            "list": [
+              "¼ cup water",
+              "¼ cup peanut butter",
+              "2 tablespoons low-sodium soy sauce",
+              "1 ½ tablespoons seasoned rice vinegar",
+              "1 ½ tablespoons chile paste with garlic (i.e. sambal oelek)",
+              "½ teaspoon sugar"
+            ]
+          }
+        ],
+        "instructions": [
+          "To prepare pot stickers, combine first 10 ingredients in a food processor; pulse 4 times or until coarsely chopped. Working with 1 wonton wrapper at a time (cover remaining wrappers with a damp towel to prevent drying), spoon about 1 ½ teaspoons shrimp mixture into center of each wrapper. Moisten edges of dough with water. Moisten edges of dough with water; bring 2 opposite corners to center, pinching points to seal. Bring remaining 2 corners to center, pinching points to seal. Pinch 4 edges together to seal. Place pot stickers on a large baking sheet sprinkled with cornstarch. Heat 1 ½ teaspoons canola oil in a large nonstick skillet over medium-high heat. Add 12 pot stickers to pan; cook 2 minutes or until bottoms are golden brown. Slowly add ½ cup water to pan; cover and cook 4 minutes. Uncover and cook 3 minutes or until liquid evaporates. Repeat procedure with remaining 1 ½ teaspoons canola oil, 12 pot stickers, and ½ cup water. To prepare sauce, combine ¼ cup water and next 5 ingredients (through sugar) in a small bowl, stirring with a whisk. Serve sauce with pot stickers. Garnish with chopped green onions, if desired."
+        ],
+        "images": [
+          "/images/ginger_shrimp_potstickers.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Rachel's Goulash",
+        "author": "Rachel Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "½ pound ground beef",
+              "Onion",
+              "Macaroni",
+              "1 can chopped tomatoes",
+              "1 can tomato sauce",
+              "Tomato juice"
+            ]
+          }
+        ],
+        "instructions": [
+          "Brown ground beef with onions. Boil macaroni and drain. Add 1 can chopped tomatoes, 1 can tomato sauce, and extra tomato juice to desired consistency. "
+        ],
+        "images": [
+          "/images/goulash.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Ham Balls",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 ½ pound ground ham",
+              "1 pound ground pork",
+              "½ cup chopped onion",
+              "2 beaten eggs",
+              "1 teaspoon prepared mustard",
+              "¼ cup brown sugar",
+              "1 cup tomato juice",
+              "¾ cup crackers"
+            ]
+          }
+        ],
+        "instructions": [
+          "Make into 15 balls and place on cookie sheet.  For the topping mix brown sugar and mustard.  As the meat starts to make the juice, mix it with the liquid with topping and pour over balls several times.  Bake about 1 hour at 350 degrees."
+        ],
+        "images": [
+          "/images/ham_balls.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Holiday Ham",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 salty, moldy, dry-hung country ham, usually bought somewhere wacky in the South"
+            ]
+          }
+        ],
+        "instructions": [
+          "Ask R.G. (he's the expert). Soak it in water. Scrub the mold off with a stiff brush. Brine it in Coke (optional). Cook it. Glaze it. Eat it."
+        ],
+        "images": [
+          "/images/ham.jpg",
+          "/images/ham_2.jpg"
+        ],
+        "notes": [
+          "After eating on it for a few days, Dad will eventually say, \"Abraham Lincoln was asked once to define eternity. He thought about it a bit, and said: \"Two men and a ham.\""
+        ],
+        "print_image": true
+      },
+      {
+        "title": "Japanese Curry (karei raisu)",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "4 tablespoons unsalted butter",
+              "2 tablespoons vegetable oil",
+              "1 large, yellow onion, sliced into half moons",
+              "1 pound protein (beef/ mushrooms/ tofu)",
+              "2 large carrots, irregularly chopped",
+              "1 potato, chopped into ¾ inch cubes",
+              "4 pieces Vermont Curry (not mild)",
+              "1 teaspoon salt",
+              "6 cups white rice"
+            ]
+          }
+        ],
+        "instructions": [
+          "Saute onion 5 minutes in fats. Add protein for 5 mintues. Add 4 cups water, potato, carrots. Cook for 1 hour. Add curry and salt, cook for 15 minutes. Serve over rice immediately."
+        ],
+        "images": [],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Emily’s Simple Lasagne",
+        "author": "Emily Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 pound ground beef",
+              "½ pound (box) lasagne noodles",
+              "6 ounce can tomato paste",
+              "8 ounce can tomato sauce",
+              "1 onion, diced",
+              "1 clove garlic, diced",
+              "1 teaspoon italian seasoning",
+              "8 ounces cottage cheese",
+              "8 ounces mozzarella cheese",
+              "*** 1 pineapple - very important***"
+            ]
+          }
+        ],
+        "instructions": [
+          "Preheat oven to 350 degrees. Brown ground beef and boil noodles. Mix beef, tomato paste + sauce, onion, garlic and italian spices. Add water for desired consistency. Layer in two quart pan, sauce, noodles, cheese *pineapple*, etc. End with cheese. Bake until cheese is melted ~45 minutes."
+        ],
+        "images": [
+          "/images/lasagne.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Ron’s Maidrites",
+        "author": "Ron Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "½ cup green pepper, chopped",
+              "⅓ cup celery, chopped",
+              "1 onion, chopped",
+              "1 garlic clove, minced",
+              "1 pound ground beef",
+              "1 8-ounce tomato sauce",
+              "¼ cup ketchup",
+              "2 squirts mustard",
+              "2 tablespoons western dressing"
+            ]
+          }
+        ],
+        "instructions": [
+          "Apparently just mix it all up and heat and serve on buns."
+        ],
+        "images": [
+          "/images/maidrites.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Meatball Cabbage Soup",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 lb ground beef",
+              "1 egg",
+              "⅓ C. Oatmeal",
+              "1 Qt. + 1 Pint water",
+              "2 beef boullion cubes",
+              "4 C. chopped cabbage",
+              "1.5 C. spaghetti sauce"
+            ]
+          }
+        ],
+        "instructions": [
+          "Combine ground beef, egg, and oatmeal.  Roll into walnut-sized balls and bake for 20 minutes at 350.  In soup pan, add water with boullion, cabbage, spaghetti sauce, and meatballs.  Simmer for 1 hour."
+        ],
+        "images": [
+          "/images/meatball_cabbage_soup.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Pasta Orientale",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "4 tablespoons corn oil, divided",
+              "4 cups shredded cabbage",
+              "1 sweet red pepper, cut in thin strips",
+              "6 ounces snow peas, cut in half",
+              "2 large cloves garlic, minced",
+              "1 teaspoon minced fresh ginger (or ½ teaspoon ground)",
+              "¾ pound lean boneless pork, cut in thin strips",
+              "3 tablespoons soy sauce",
+              "3 tablespoons dry sherry",
+              "1 tablespoon cider vinegar",
+              "½ teaspoon hot pepper sauce",
+              "6 ounces tri-colored rotini"
+            ]
+          }
+        ],
+        "instructions": [
+          "In 12-inch skillet, heat 2 tablespoons corn oil over medium-high heat. Add cabbage, red pepper, and snow peas; stir fry 3 minutes or until tender-crisp. Remove. Add remaining 2 tablespoons corn oil to skillet. Add garlic and ginger; sauté 30 seconds. Add pork; stir fry 2 minutes or until no longer pink. Add soy sauce, sherry, vinegar, and hot pepper sauce. Stirring constantly, bring to a boil. Reduce heat and simmer 1 minute. Remove from heat. Add pasta and vegetable; toss to coat."
+        ],
+        "images": [
+          "/images/pasta_orientale.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Peak to Peak Pancake",
+        "author": "Debbie and Randy Huebner",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "2 ½ tablespoons butter",
+              "1 ¼ cup milk",
+              "¾ cup flour",
+              "3 eggs",
+              "⅓ cup sugar",
+              "¼ teaspoon salt",
+              "¼ teaspoon pure vanilla",
+              "fresh berries",
+              "maple syrup, heated"
+            ]
+          }
+        ],
+        "instructions": [
+          "Preheat oven to 400℉. Place butter in 9-inch glass pie pan and melt in oven. In blender combine milk, flour, eggs, sugar, salt, and vanilla and process until smooth. Remove pie pan from oven and increase oven temp to 425℉. Pour batter into pie pan and bake 20 minutes. Reduce to 325℉ and bake 8 minutes. Invert on serving plate, sprinkle with powdered sugar, serve with fresh berries and syrup."
+        ],
+        "images": [
+          "/images/peak_to_peak_pancake.jpg"
+        ],
+        "notes": [
+          "Recipe from Debbie and Randy Huebner"
+        ],
+        "print_image": true
+      },
+      {
+        "title": "Pork Chops with Corn Dressing",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "4 pork chops, 1-inch thick",
+              "salt",
+              "pepper",
+              "soft white bread",
+              "1 3-ounce can cream style corn",
+              "½ green pepper, chopped",
+              "1 small onion, chopped",
+              "½ stick of butter, melted"
+            ]
+          }
+        ],
+        "instructions": [
+          "Brown chops, season with salt and pepper. Place in a glass baking dish. Break bread in bowl, allowing 2 slices per chop. Add rest of ingredients and mix well. Place on mound on top of chops. Bake uncovered at 350℉ approximately 1 hour."
+        ],
+        "images": [
+          "/images/pork_chops_with_corn_dressing.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Pork Tenderloin Diane",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 lb pork tenderloin, but into 8 pieces",
+              "2 teaspoon lemon pepper",
+              "2 tablespoon butter",
+              "2 tablespoon lemon juice",
+              "1 tablespoon Worcestershire sauce",
+              "1 teaspoon Dijon mustard",
+              "1 tablespoon minced parsley or chives"
+            ]
+          }
+        ],
+        "instructions": [
+          "Press each slice to 1” medallions. Sprinkle surfaces with lemon pepper. Heat butter in skillet, cook tenderloins 3-4 minutes on each side. Remove to serving platter, keep warm. Add lemon juice, worcestershire sauce and mustard to skillet, cook stirring with pan juices, until heated through. Pour over medallions and sprinkle with parsley. Serve."
+        ],
+        "images": [
+          "/images/pork_tenderloin_diane.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Redfish Meuniere",
+        "author": "Scott Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 6-8 ounce redfish fillet",
+              "Flour to coat",
+              "3 ounces clarified butter",
+              "6 small shrimp",
+              "1 tablespoon worcestershire sauce",
+              "½ teaspoon Louisiana or Crystal hot sauce",
+              "1 lemon, juiced",
+              "2 teaspoons butter, whole",
+              "Green onions, minced for garnish"
+            ]
+          }
+        ],
+        "instructions": [
+          "Coat redfish with flour. Sauté in clarified butter until done. Turn once. Place on serving platter. Add shrimp to skillet. Sauté until pink (2 or 3 minutes). Add worcestershire and hot sauce and swirl; remove from heat. Add lemon and whole butter; swirl until butter is incorporated into sauce. Spoon over fish and garnish with green onions. Serve with rice. Recipe from Coop’s Place in New Orleans."
+        ],
+        "images": [
+          "/images/redfish_meuniere.jpg"
+        ],
+        "notes": [
+          "Can be used on virtually any fillet of fish, but Coop’s uses redfish, trout, or flounder."
+        ],
+        "print_image": true
+      },
+      {
+        "title": "Salmon with Brown Sugar Sauce",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "Salmon filets",
+              "3 tablespoons brown sugar",
+              "1 tablespoon soy sauce",
+              "4 teaspoons hot mustard",
+              "1 teaspoon rice vinegar"
+            ]
+          }
+        ],
+        "instructions": [
+          "Combine in saucepan bring to boil, remove from heat.",
+          "Place fish on foil-lined pan, coat with cooking spray.",
+          "Bake at 425 for 12 minutes.",
+          "Remove from oven. Preheat broiler.",
+          "Brush fish with sugar mixture, then broil from 3 inches from boiler for 3 minutes."
+        ],
+        "images": [
+          "/images/salmon_with_brown_sugar_sauce.jpg",
+          "/images/salmon_with_brown_sugar_sauce_recipe_front.jpg",
+          "/images/salmon_with_brown_sugar_sauce_recipe_back.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Shish Kabobs with Teriyaki Marinade",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Teriyaki Marinade",
+            "list": [
+              "1/4 C. cooking oil",
+              "1/4 C. soy sauce",
+              "1/4 C. dry sherry",
+              "1 T. grated ginger",
+              "1 garlic clove, minced",
+              "2 T. molasses"
+            ]
+          },
+          {
+            "label": "Kabobs",
+            "list": [
+              "beef, cut into 1 inch cubes",
+              "canned potatoes, cut in half if large",
+              "jarred whole mushrooms",
+              "bell peppers, large pieces",
+              "onion, large pieces",
+              "pineapple chunks"
+            ]
+          }
+        ],
+        "instructions": [
+          "Soak skewers in water 10-15 minutes. Mix marinade ingredients together. Place all shish kabob ingredients in a large plastic bag with marinade. Marinate beef at least 1 hour (vegetables can be marinated separately for less time). Grill and serve."
+        ],
+        "images": [],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Shrimp Creole",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "¾ cup chopped onion",
+              "1 clove garlic, minced",
+              "1 medium green pepper, finely chopped",
+              "½ cup celery finely chopped",
+              "2 tablespoon",
+              "1 8-ounce can tomato sauce",
+              "½ cup water",
+              "1 bay leaf",
+              "1 teaspoon minced fresh parsley",
+              "½ teaspoon salt",
+              "⅛ teaspoon cayenne pepper",
+              "7 ounces shrimp"
+            ]
+          }
+        ],
+        "instructions": [
+          "In medium skillet, sauté onion, garlic, green pepper, and celery in butter about 5 minutes or until tender. Remove from heat; stir in tomato sauce, water, bay leaf, parsley, salt, and pepper. Simmer 10 minutes. Add additional water, if needed. Add shrimp. Bring mixture to a boil; cook covered over medium heat 5 minutes. Serve over fluffy white rice."
+        ],
+        "images": [
+          "/images/shrimp_creole.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Shrimp Meuniere",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "2 cloves garlic",
+              "½ teaspoon salt",
+              "¼ cup melted butter",
+              "2 pounds shrimp, shelled and deveined",
+              "2 tablespoons lemon juice",
+              "1 tablespoon parsley, chopped",
+              "1 large skillet"
+            ]
+          }
+        ],
+        "instructions": [
+          "Crush garlic with salt into paste. Add butter and oil and heat. Add shrimp and fry gently, stirring often for 5-10 minutes or until done. Remove from heat; add lemon juice and garnish with parsley."
+        ],
+        "images": [],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Summer Salad",
+        "author": "Norm and Jolene Ostbloom",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "4 slices smoked salmon, cut into 1 inch pieces",
+              "8 mushrooms, cut into quarters",
+              "2 tablespoons butter",
+              "1 head boston lettuce, torn into bite-sized pieces",
+              "2 tomatoes, largely chopped",
+              "8 radishes, sliced",
+              "1 tablespoon fresh chervil",
+              "1 tablespoon fresh parsley",
+              "1 teaspoon chives",
+              "1 tablespoon chopped dill"
+            ]
+          },
+          {
+            "label": "Sour Cream Dressing",
+            "list": [
+              "1 cup sour cream",
+              "2 teaspoons tarragon vinegar",
+              "1 tablespoon white vinegar",
+              "1 teaspoon horseradish",
+              "½ teaspoon salt",
+              "Fresh pepper"
+            ]
+          }
+        ],
+        "instructions": [
+          "Beat dressing ingredients together. In a skillet lightly brown butter, add salmon and mushrooms. Saute 5 minutes. In a large bowl mix lettuce and cold vegetables and herbs. Add hot salmon and mushrooms. Pour dressing over salad, mix well, and serve at once."
+        ],
+        "images": [
+          "/images/summer_salad.jpg"
+        ],
+        "notes": [
+          "Recipe from the Ostblooms"
+        ],
+        "print_image": true
+      },
+      {
+        "title": "Jane's Tuna Noodle Casserole",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "6 oz egg noodles",
+              "6 ½ oz tuna, dried and flaked",
+              "½ cup salad olives chopped",
+              "1 cup processed cheese (4 oz)",
+              "¾ cup milk",
+              "2 eggs beaten",
+              "1 t garlic salt",
+              "¼ t dry mustard",
+              "1 can mushroom soup"
+            ]
+          }
+        ],
+        "instructions": [
+          "Cook noodles, add tuna, olives, cheese and mix.  Transfer to greased casserole dish.  Blend eggs, milk, garlic salt, mustard and soup in sauce pan.  Pour into casserole.  Bake covered in 350 degree oven 45-60 minutes.  Bake uncovered for last 15 minutes."
+        ],
+        "images": [
+          "/images/tuna_noodle_casserole_1.jpg",
+          "/images/tuna_noodle_casserole_2.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      },
+      {
+        "title": "Turkey Enchiladas",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Sauce",
+            "list": [
+              "2 cans Rotel",
+              "1/2 can water",
+              "1 clove minced garlic",
+              "2 tablespoons cooking oil",
+              "1 cup chopped onion",
+              "1/2 teaspoon oregano",
+              "8oz can tomato sauce (optional, instead of water)",
+              "Salt to taste"
+            ]
+          },
+          {
+            "label": "Filling",
+            "list": [
+              "1 package 12 corn tortillas",
+              "3 cups chopped cooked turkey",
+              "2 cups sour cream",
+              "2 cups shredded cheddar cheese"
+            ]
+          }
+        ],
+        "instructions": [
+          "Sauce: Sauté onion and garlic in oil. Add Rotel and water (or tomato sauce), simmer for 30 minutes.",
+          "Filling: Mix filling together. Sauté tortillas in oil in skillet to soften. Place a spoonful of filling in warm tortilla, add to baking dish. Top with sauce.",
+          "Bake in 350 degree oven for 25-30 minutes"
+        ],
+        "images": [
+          "/images/turkey_enchiladas.jpg"
+        ],
+        "notes": [
+          "Jane and Ron's go-to Thanksgiving leftover dinner dish."
+        ],
+        "print_image": true
+      },
+      {
+        "title": "Vegetable Cheese Soup",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 quart + 1 cup water",
+              "2 teaspoon chicken bouillon",
+              "1 cup shredded carrots",
+              "⅔ cup frozen corn",
+              "⅔ cup frozen peas",
+              "2 ½ cups shredded raw potatoes",
+              "¼ cup chopped onion",
+              "1 ½ teaspoons parsley flakes",
+              "1 10 ounce can cream of celery soup",
+              "2 cups diced American cheese"
+            ]
+          }
+        ],
+        "instructions": [
+          "In 3 quart sauce pan combine water, bouillon, carrots, corn, peas, potatoes, onion, and parsley flakes. Bring to a boil. Turn down to a simmer and cook for 15 minutes or until vegetables are tender. Add soup and cheese. Simmer and stir until cheese is melted and smooth."
+        ],
+        "images": [
+          "/images/vegetable_cheese_soup.jpg"
+        ],
+        "notes": [
+          "Recipe from University of Northern Iowa catering."
+        ],
+        "print_image": true
+      },
+      {
+        "title": "Verola Hartwig’s Macaroni and Cheese",
+        "author": "Verola Hartwig",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "2 cups macaroni, boiled until slightly al dente",
+              "1 - 1½ cups non-skim milk",
+              "2 cups chopped cheeses",
+              "[Scott & Jane’s suggestion: 5 kinds including Velvetta, sharp cheddar, peeperjack, a smoked cheese + any white cheese]"
+            ]
+          }
+        ],
+        "instructions": [
+          "Combine in layers in 2 quart casserole. Bake, covered with foil, for 35-45 minutes. Uncover, top with crushed barbeque chips, and bake 5 more minutes."
+        ],
+        "images": [
+          "/images/verola_hartwigs_macaroni_and_cheese.jpg"
+        ],
+        "notes": [],
+        "print_image": true
+      }
+    ]
+  }
+}
