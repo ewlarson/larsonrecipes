@@ -62,13 +62,13 @@ color: lavender
     <a class="nav-item nav-link" href="#pies">
       Pies
     </a>
-    <a class="nav-item nav-link" href="#sliced-ice-box-cookies">
-      Sliced Ice Box Cookies
-    </a>
     <a class="nav-item nav-link" href="#tapioca-pudding">
       Tapioca Pudding
     </a>
   </nav>
+
+  <!-- Print Image -->
+  <section class="background print" id="antelope" /></section>
 
   <div class="separator"></div>
 
@@ -298,8 +298,7 @@ color: lavender
 
   <div class="separator"></div>
 
-  <!-- Print Image -->
-  <section class="background print" id="antelope" /></section>
+  <section class="background" id="lefse" /></section>
 
   <div class="recipe row">
     <div class="title col-md-12">
@@ -328,9 +327,7 @@ color: lavender
 
       <div class="directions">
         <h3>Directions</h3>
-        <p>Beat egg until frothy; beat in sugar and butter. Cream until light and fluffy. Add sour cream and vanilla; blend well.</p>
-
-        <p>Sift dry ingredients together; add to sour cream mixture.  Pour into a greased 8 inch square pan.  Sprinkle with Topping.</p>
+        <p>Beat egg until frothy; beat in sugar and butter. Cream until light and fluffy. Add sour cream and vanilla; blend well. Sift dry ingredients together; add to sour cream mixture.  Pour into a greased 8 inch square pan.  Sprinkle with Topping.</p>
 
         <p>Brown Sugar Topping:  1/2 cup brown sugar, 2 tablespoons flour, 1/2 teaspoon cinnamon and 2 tablespoons softened butter. Mix until crumbly.</p>
 
@@ -346,9 +343,11 @@ color: lavender
     </div>
   </div>
 
+  <section class="blank" /></section>
+
   <div class="separator"></div>
 
-  <h2 id="cookies" class="web">Cookies</h2>
+  <h2 id="cookies" class="center">Cookies</h2>
   <nav class="nav nav-pills nav-fill web">
     <a class="nav-item nav-link" href="#molasses-sugar-cookies">
       Molasses Sugar Cookies
@@ -359,10 +358,19 @@ color: lavender
     <a class="nav-item nav-link" href="#peanut-butter-blossoms">
       Peanut Butter Blossoms
     </a>
+    <a class="nav-item nav-link" href="#sliced-ice-box-cookies">
+      Sliced Ice Box Cookies
+    </a>
     <a class="nav-item nav-link" href="#snickerdoodles">
       Snickerdoodles
     </a>
   </nav>
+
+  <div class="row justify-content-center">
+    <div class="image col-md-6">
+      <img class="img-fluid" src="<%= image_path('cookies_1.jpg') %>" />
+    </div>
+  </div>
 
   <div class="separator"></div>
 
@@ -488,9 +496,50 @@ color: lavender
       <div class="directions">
         <h3>Directions</h3>
         <p>Heat oven to 375℉.  Remove wrappers from chocolates.</p>
-        <p>Stir cookie mix, oil, water and egg in medium bowl until soft dough forms.</p>
-        <p>Shape dough into 1-inch balls.  Roll in granulated sugar; place on ungreased cookie sheet.</p>
+        <p>Stir cookie mix, oil, water and egg in medium bowl until soft dough forms. Shape dough into 1-inch balls.  Roll in granulated sugar; place on ungreased cookie sheet.</p>
         <p>Bake 8 to 10 minutes or until lightly browned.  Immediately press a chocolate into center of each cookie; cookie will crack around edges.  Remove from cookie sheet to wire rack.  Cool completely.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="separator"></div>
+
+  <div class="recipe row">
+    <div class="title col-md-12">
+      <h2 id="sliced-ice-box-cookies">Sliced Ice Box Cookies</h2>
+    </div>
+
+    <div class="image col-md-6 web">
+      <img class="img-fluid" src="<%= image_path('sliced_ice_box_cookies.jpg') %>" />
+    </div>
+
+    <div class="instructions col-md-6">
+      <div class="ingredients">
+        <h3>Ingredients</h3>
+        <ul>
+          <li>4 ½ cups flour</li>
+          <li>½ teaspoon cloves</li>
+          <li>1 teaspoon salt</li>
+          <li>2 teaspoons baking soda</li>
+          <li>1 teaspoon cinnamon</li>
+          <li>½ teaspoon nutmeg</li>
+          <li>1 cup brown sugar</li>
+          <li>1 cup white sugar</li>
+          <li>1 ½ cups melted lard</li>
+          <li>3 eggs</li>
+          <li>1 cup nuts</li>
+          <li>1 cup raisins</li>
+        </ul>
+      </div>
+
+      <div class="directions">
+        <h3>Directions</h3>
+        <p>Mix sugar and melted fat. Add well beaten eggs. Add flour which has been sifted with salt, baking soda, and spices. Add the chopped nuts and ground raisins which have been dredged with some of the measured flour. Shape in rolls. Roll in waxed paper and store in refrigerator over night. Slice off and bake in a moderate oven (375℉) about 10 minutes.</p>
+      </div>
+
+      <div class="notes">
+        <h5>Notes</h5>
+        <p>Recipe from Grandma Brower</p>
       </div>
     </div>
   </div>
@@ -734,6 +783,13 @@ color: lavender
     </div>
   </div>
 
+  <!-- Print image -->
+  <div class="print print-image row justify-content-center">
+    <div class="image col-md-12">
+      <img class="img-fluid" src="<%= image_path('fruitcake.jpg') %>" />
+    </div>
+  </div>
+
   <div class="separator"></div>
 
   <div class="recipe row">
@@ -774,9 +830,20 @@ color: lavender
 
   <div class="separator"></div>
 
+  <section class="blank" /></section>
+  <h2 id="lefse" class="center">Lefse</h2>
+
+  <div class="row justify-content-center">
+    <div class="image col-md-6">
+      <img class="img-fluid" src="<%= image_path('lefse.jpg') %>" />
+    </div>
+  </div>
+
+  <div class="separator"></div>
+
   <div class="recipe row">
     <div class="title col-md-12">
-      <h2 id="lefse">Lefse</h2>
+      <h2>Lefse</h2>
     </div>
 
     <div class="image col-md-6 web">
@@ -803,6 +870,12 @@ color: lavender
         <p>Roll out flat and cook on hot grill.</p>
       </div>
     </div>
+  </div>
+
+  <!-- Print images -->
+  <div class="print row">
+    <img src="<%= image_path('lefse_dad.jpg') %>" />
+    <img src="<%= image_path('lefse_mom.jpg') %>" />
   </div>
 
   <div class="separator"></div>
@@ -851,6 +924,8 @@ color: lavender
       </div>
     </div>
   </div>
+
+  <section class="blank" /></section>
 
   <div class="separator"></div>
 
@@ -963,13 +1038,13 @@ color: lavender
         <h5>Notes</h5>
         <p>If using frozen blueberries, increase the all purpose flour to ⅓ cup.</p>
       </div>
-    </div>
-  </div>
 
-  <!-- Print image -->
-  <div class="print print-image row justify-content-center">
-    <div class="image col-md-12">
-      <img class="img-fluid" src="<%= image_path('blueberry_pie_picture.jpg') %>" />
+      <!-- Print image INLINE -->
+      <div class="print row justify-content-center">
+        <div class="image col-md-12">
+          <img class="img-fluid" src="<%= image_path('blueberry_pie_picture.jpg') %>" style="display:inline !important; margin-top:4rem;"/>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -1093,48 +1168,6 @@ color: lavender
   <div class="print print-image row justify-content-center">
     <div class="image col-md-12">
       <img class="img-fluid" src="<%= image_path('pumpkin_pie_picture.jpg') %>" />
-    </div>
-  </div>
-
-  <div class="separator"></div>
-
-  <div class="recipe row">
-    <div class="title col-md-12">
-      <h2 id="sliced-ice-box-cookies">Sliced Ice Box Cookies</h2>
-    </div>
-
-    <div class="image col-md-6 web">
-      <img class="img-fluid" src="<%= image_path('sliced_ice_box_cookies.jpg') %>" />
-    </div>
-
-    <div class="instructions col-md-6">
-      <div class="ingredients">
-        <h3>Ingredients</h3>
-        <ul>
-          <li>4 ½ cups flour</li>
-          <li>½ teaspoon cloves</li>
-          <li>1 teaspoon salt</li>
-          <li>2 teaspoons baking soda</li>
-          <li>1 teaspoon cinnamon</li>
-          <li>½ teaspoon nutmeg</li>
-          <li>1 cup brown sugar</li>
-          <li>1 cup white sugar</li>
-          <li>1 ½ cups melted lard</li>
-          <li>3 eggs</li>
-          <li>1 cup nuts</li>
-          <li>1 cup raisins</li>
-        </ul>
-      </div>
-
-      <div class="directions">
-        <h3>Directions</h3>
-        <p>Mix sugar and melted fat. Add well beaten eggs. Add flour which has been sifted with salt, baking soda, and spices. Add the chopped nuts and ground raisins which have been dredged with some of the measured flour. Shape in rolls. Roll in waxed paper and store in refrigerator over night. Slice off and bake in a moderate oven (375℉) about 10 minutes.</p>
-      </div>
-
-      <div class="notes">
-        <h5>Notes</h5>
-        <p>Recipe from Grandma Brower</p>
-      </div>
     </div>
   </div>
 

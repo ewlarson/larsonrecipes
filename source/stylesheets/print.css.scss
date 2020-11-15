@@ -25,7 +25,15 @@ $iron: #5E5E5E;                   // #5E5E5E
     @top-center {
       content: none; }
     @top-right {
-      content: none; } }
+      content: none; }
+    @bottom-left {
+      background: none;
+      content: ''; }
+    @bottom-center {
+      content: ''; }
+    @bottom-right {
+      content: ''; }
+  }
 
   @page :left {
     margin-right: 0.375in;
@@ -53,22 +61,17 @@ $iron: #5E5E5E;                   // #5E5E5E
     }
   }
 
-  @page :first {
-    margin-left: 0.375in;
-    margin-right: 0;
-    background: lightblue image-url("thanksgiving_background.jpg") no-repeat fixed center;
-
-    @bottom-right {
-      background: none;
-      content: ''; }
-  }
-
   @page cover {
     margin-left: 0.375in;
     margin-right: 0;
     background: lightblue image-url("thanksgiving_background.jpg") no-repeat fixed center;
+    height: 8.5in;
 
     @bottom-left {
+      background: none;
+      content: ''; }
+
+    @bottom-right {
       background: none;
       content: ''; }
   }
@@ -98,7 +101,15 @@ $iron: #5E5E5E;                   // #5E5E5E
 
   .web { display: none; }
   .print { display: block !important; }
-  .blank { page: blank; }
+  .blank {
+    page: blank;
+    margin-left: -20mm;
+    margin-right: -20mm;
+    display: flex;
+    flex-wrap: wrap;
+    height: 250mm;
+    justify-content: center;
+  }
 
   a {
     &:not(.btn) {
@@ -107,11 +118,13 @@ $iron: #5E5E5E;                   // #5E5E5E
   }
 
   div.section {
-    h1 { display: none; }
-    h2 {
-      font-size: 42pt;
-      margin-top: 12pt;
-      string-set: heading content();
+    hgroup {
+      h1 { display: none; }
+      h2 {
+        font-size: 42pt;
+        margin-top: 12pt;
+        string-set: heading content();
+      }
     }
   }
 
@@ -263,6 +276,12 @@ $iron: #5E5E5E;                   // #5E5E5E
 
   #kitchen-window.background {
     background: lightblue image-url("backgrounds/kitchen_window.jpeg") no-repeat center;
+    background-size: cover;
+    height: 250mm;
+  }
+
+  #lefse.background {
+    background: lightblue image-url("backgrounds/lefse_bkg.jpg") no-repeat center;
     background-size: cover;
     height: 250mm;
   }
