@@ -56,7 +56,7 @@
           "/images/beet_pickles_tweeten_back.jpg"
         ],
         "notes": [],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Bread and Butter",
@@ -84,7 +84,7 @@
           "/images/bread_and_butter.png"
         ],
         "notes": [],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Rachel's Dill Pickles",
@@ -113,7 +113,7 @@
         "notes": [
           "Rachel loved to use her garden home grown dill. She slaved in a hot kitchen to make these pickles with no central air conditioning."
         ],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Everyday Pickles",
@@ -165,7 +165,7 @@
         "notes": [
           "The secret is to cut the cucumbers thin and to include celery in the middle of the jar. The onions are good in sandwiches."
         ],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Pickled Green Tomatoes",
@@ -191,7 +191,7 @@
         "notes": [
           "You can never have too many pickles in a relish tray."
         ],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Refrigerator Pickles",
@@ -214,7 +214,7 @@
           "/images/refrigerator_pickles.png"
         ],
         "notes": [],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Sexy Memphis Gator Eggs",

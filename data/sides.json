@@ -1,7 +1,7 @@
 {
   "chapter": {
     "title": "Sides",
-    "color": "blue",
+    "color": "carnation",
     "schema": true,
     "recipeCategory": "sides",
     "recipeCuisine": "American",
@@ -196,7 +196,7 @@
         "notes": [
           "Recipe from Linda Earnest"
         ],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Riced Potatoes",
