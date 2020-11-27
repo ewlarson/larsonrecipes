@@ -64,12 +64,14 @@
         ],
         "images": [],
         "notes": [
-          "Tip: Cook ears of corn in boiling water for 3 minutes. Cool in cold water. Cut kernals from cobs."
+          "Tip: Cook ears of corn in boiling water for 3 minutes. Cool in cold water. Cut kernals from cobs.",
+          "One day Ron brought home at least two dozen ears of corn because the Harrington salesperson wanted to empty their pickup and go home. We needed to do something and found this recipe.",
+          "It is great for holidays and on salads. Megan's brother Patrick Curtis especially enjoys it at Thanksgiving."
         ],
         "print_image": true
       },
       {
-        "title": "\n        Cranberry Sauce",
+        "title": "Cranberry Sauce",
         "author": "Jane Larson",
         "ingredients": [
           {
@@ -87,11 +89,13 @@
         "images": [
           "/images/cranberry_sauce.jpg"
         ],
-        "notes": [],
+        "notes": [
+          "Rachel made Vince grind up the cranberries, and orange by hand."
+        ],
         "print_image": true
       },
       {
-        "title": "\n        Easy Potatoes",
+        "title": "Easy Potatoes",
         "author": "Jane Larson",
         "ingredients": [
           {
@@ -137,7 +141,9 @@
         "images": [
           "/images/emilys_coleslaw.jpg"
         ],
-        "notes": [],
+        "notes": [
+          "You can use a bag of coleslaw mix instead of a cabbage. Emily likes to add red pepper slices."
+        ],
         "print_image": true
       },
       {
@@ -209,7 +215,9 @@
         "images": [
           "/images/riced_potatoes.jpg"
         ],
-        "notes": [],
+        "notes": [
+          "This was a tradition for holiday meals in the Brower family."
+        ],
         "print_image": true
       },
       {
@@ -232,7 +240,9 @@
         "images": [
           "/images/scalloped_corn.jpg"
         ],
-        "notes": [],
+        "notes": [
+          "Use a single can to measure the crackers, milk, and beat the eggs -- makes this the most efficient use of the kitchen, with very little dish cleaning."
+        ],
         "print_image": true
       },
       {
@@ -308,7 +318,9 @@
           "Bake until very hot and beginning to brown. (~30 min)."
         ],
         "images": [],
-        "notes": [],
+        "notes": [
+          "Chelsey introduced this recipe to the Larsons and Jane likes making it with her. The topping is like candy."
+        ],
         "print_image": true
       }
     ]

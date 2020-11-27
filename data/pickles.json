@@ -26,7 +26,9 @@
         "images": [
           "/images/beet_pickles.jpg"
         ],
-        "notes": [],
+        "notes": [
+          "It is always a favorite at the holidays. Ron used to overeat them as a child and get hollered at to stay out of the pickle dish. Jane's mom added pickling space to her beets."
+        ],
         "print_image": true
       },
       {
@@ -108,7 +110,9 @@
         "images": [
           "/images/dill_pickles.jpg"
         ],
-        "notes": [],
+        "notes": [
+          "Rachel loved to use her garden home grown dill. She slaved in a hot kitchen to make these pickles with no central air conditioning."
+        ],
         "print_image": true
       },
       {
@@ -158,7 +162,9 @@
         "images": [
           "/images/ice_water_pickles.png"
         ],
-        "notes": [],
+        "notes": [
+          "The secret is to cut the cucumbers thin and to include celery in the middle of the jar. The onions are good in sandwiches."
+        ],
         "print_image": true
       },
       {
@@ -182,7 +188,9 @@
         "images": [
           "/images/pickled_green_tomatoes.jpg"
         ],
-        "notes": [],
+        "notes": [
+          "You can never have too many pickles in a relish tray."
+        ],
         "print_image": true
       },
       {
@@ -236,7 +244,8 @@
           "/images/sexy_memphis_gator_eggs.jpg"
         ],
         "notes": [
-          "Eric invented this recipe as an undergrad at the University of Iowa."
+          "Eric invented this recipe as an undergrad at the University of Iowa.",
+          "Eric and Megan served these eggs at their wedding rehearsal dinner at the Hong Kong restaurant in Cedar Falls."
         ],
         "print_image": true
       }
