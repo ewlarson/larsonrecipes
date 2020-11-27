@@ -1,9 +1,9 @@
 {
   "chapter": {
-    "title": "Breads",
-    "color": "blue",
+    "title": "Pickles",
+    "color": "honeydew",
     "schema": true,
-    "recipeCategory": "breads",
+    "recipeCategory": "pickles",
     "recipeCuisine": "American",
     "recipes": [
       {

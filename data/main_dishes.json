@@ -1,7 +1,7 @@
 {
   "chapter": {
     "title": "Main Dishes",
-    "color": "blue",
+    "color": "iron",
     "schema": true,
     "recipeCategory": "main dishes",
     "recipeCuisine": "American",
@@ -66,7 +66,7 @@
         "notes": [
           "Scott fixed this recipe for all of us when he was home for the holidays."
         ],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Barbeque Ribs",
@@ -107,7 +107,7 @@
         "notes": [
           "Added molasses and brown sugar to sauce. Alternative cooking method: Oven, 300°, 2 hours. “Worked good”."
         ],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Super Beef Stroganoff",
@@ -143,7 +143,7 @@
         "notes": [
           "Recipe came from Althea Bussert. She fixed it for Ron and Jane on one of the many trips to visit her and Jim in Mesa, Arizona."
         ],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Broccoli Walnut Noodles",
@@ -172,7 +172,7 @@
           "/images/broccoli_walnut_noodles.jpg"
         ],
         "notes": [],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Crisp Cheese-filled Eggplant Sandwiches with Pomegranate Molasses",
@@ -255,7 +255,7 @@
         "notes": [
           "The Larsons love any recipe that calls for lemons. Scott says to double the amount of lemon in any recipe the Larsons are eating."
         ],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Texas Chili (Lone Star Beer)",
@@ -438,7 +438,7 @@
         "notes": [
           "Scott and Jane liked fixing this recipe together when Scott was living at home in Cedar Falls and attending UNI for his masters degree."
         ],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Rachel's Goulash",
@@ -463,7 +463,7 @@
           "/images/goulash.jpg"
         ],
         "notes": [],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Ham Balls",
@@ -490,7 +490,7 @@
           "/images/ham_balls.jpg"
         ],
         "notes": [],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Holiday Ham",
@@ -571,7 +571,7 @@
         "notes": [
           "Ben Yu was the person that wrote in \"add pineapple\" to the lasagna recipe. He insisted it would be good. Emily didn’t want to add pineapple so (of course) he wrote directly on the recipe so it is forever included."
         ],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Ron’s Maidrites",
@@ -601,7 +601,7 @@
         "notes": [
           "Put more than two squirts of prepared mustard in the mix. Also spread a lot of mustard on your hamburger bun; this secret came from watching the professional Maidrite employees in Cedar Falls."
         ],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Meatball Cabbage Soup",
@@ -630,7 +630,7 @@
           "This is comfort food. It is a good way to use up leftover meatballs. Parmesan cheese goes well on top.",
           "Mom and Dad made meatball soup for Emily and RG on the day they brought Sam home from the hospital."
         ],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Pasta Orientale",
@@ -661,7 +661,7 @@
           "/images/pasta_orientale.jpg"
         ],
         "notes": [],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Peak to Peak Pancake",
@@ -691,7 +691,7 @@
         "notes": [
           "Recipe from Debbie and Randy Huebner"
         ],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Pork Chops with Corn Dressing",
@@ -718,7 +718,7 @@
           "/images/pork_chops_with_corn_dressing.jpg"
         ],
         "notes": [],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Pork Tenderloin Diane",
@@ -744,7 +744,7 @@
           "/images/pork_tenderloin_diane.jpg"
         ],
         "notes": [],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Redfish Meuniere",
@@ -774,7 +774,7 @@
         "notes": [
           "Can be used on virtually any fillet of fish, but Coop’s uses redfish, trout, or flounder."
         ],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Salmon with Brown Sugar Sauce",
@@ -871,7 +871,7 @@
         "notes": [
           "Recipe came from Betty Crocker's New Dinner for Two Cookbook, 1964.  The book was a wedding present to Ron and Jane."
         ],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Shrimp Meuniere",
@@ -1040,7 +1040,7 @@
         "notes": [
           "Recipe from University of Northern Iowa catering."
         ],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Verola Hartwig’s Macaroni and Cheese",
@@ -1065,7 +1065,7 @@
         "notes": [
           "Verola was Marguerite and DeEtta's older sister. At a family reunion, it was said there was a direct correlation between the amount of cheese and the amount of compliments."
         ],
-        "print_image": true
+        "print_image": false
       }
     ]
   }
