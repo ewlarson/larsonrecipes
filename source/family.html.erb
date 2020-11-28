@@ -1,0 +1,384 @@
+---
+title: Larson Recipes &middot; Family Tree
+color: bubblegum
+---
+
+<style>
+  .tree {
+  white-space: nowrap;
+  padding-left: 0px;
+  width:100%;
+  float: left;
+  }
+  .tree ul {
+  padding-top: 2px;
+  position: relative;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  }
+  .tree li {
+  float: left;
+  clear: both;
+  display: block;
+  list-style-type: none;
+  /* position: relative; */
+  /* padding: 2px 5px 0 5px; */
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  }
+  /*We will use ::before and ::after to draw the connectors*/
+  .tree li::before, .tree li::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 5;
+  /* border-top: 1px solid #ccc; */
+  width: 50%;
+  height: 20px;
+  }
+  .tree li::after {
+  right: auto;
+  left: 50%;
+  /* border-left: 1px solid #ccc; */
+  }
+  /*We need to remove left-right connectors from elements without any siblings*/
+  .tree li:only-child::after, .tree li:only-child::before {
+  display: none;
+  }
+  /*Remove space from the top of single children*/
+  .tree li:only-child {
+  padding-top: 0;
+  }
+  /*Remove left connector from first child and right connector from last child*/
+  .tree li:first-child::before, .tree li:last-child::after {
+  border: 0 none;
+  }
+  /*Adding back the vertical connector to the last nodes*/
+  .tree li:last-child::before {
+  /* border-right: 1px solid #ccc; */
+  border-radius: 0 5px 0 0;
+  -webkit-border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+  }
+  .tree li:first-child::after {
+  border-radius: 5px 0 0 0;
+  -webkit-border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+  }
+  /*Time to add downward connectors from parents*/
+  .tree ul ul::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50px;
+  /* border-left: 1px solid #ccc; */
+  width: 0;
+  height: 20px;
+  }
+  .tree li div {
+  border: 1px solid #ccc;
+  padding: 4px;
+  text-decoration: none;
+  color: #666;
+  font-family: arial, verdana, tahoma;
+  font-size: 11px;
+  display: inline-block;
+  min-width: 80px;
+  min-height: 30px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  }
+  .tree li div .male {
+  background-color:lightblue;
+  display: inline-block;
+  padding:10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  }
+  .tree li div .female {
+  background-color:lightpink;
+  display: inline-block;
+  padding:10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  }
+  .tree li div .spacer {
+  background-color:lightblue;
+  display: inline-block;
+  width:10px;
+  }
+  /*Time for some hover effects*/
+  /*We will apply the hover effect the the lineage of the element also*/
+  .tree li div:hover, .tree li div:hover + ul li div {
+  background: #c8e4f8;
+  color: #000;
+  border: 1px solid #94a0b4;
+  }
+  /*Connector styles on hover*/
+  .tree li div:hover + ul li::after,
+  .tree li div:hover + ul li::before,
+  .tree li div:hover + ul::before,
+  .tree li div:hover + ul ul::before {
+  border-color: #94a0b4;
+  }
+</style>
+
+<div id="family-tree" class="section">
+  <hgroup>
+  <h1>
+    <%=link_to('Larson Recipes', '/')%>
+  </h1>
+  <h2>
+    Family Tree
+  </h2>
+  </hgroup>
+
+  <nav class="nav nav-pills nav-fill">
+    <a class="nav-item nav-link" href="#larson">
+      Larson
+    </a>
+    <a class="nav-item nav-link" href="#tweeten-charlson">
+      Tweeten / Charlson
+    </a>
+    <a class="nav-item nav-link" href="#brower">
+      Brower
+    </a>
+    <a class="nav-item nav-link" href="#hartwig">
+      Hartwig
+    </a>
+  </nav>
+
+  <div class="separator"></div>
+
+  <div class="recipe row">
+    <div id="larson" class="col-12">
+      <h3>Larson</h3>
+      <ul class="tree">
+        <li>
+          <div>
+            <span class="male">Per Johnson Hole (1762 - 1826)</span>
+            <span class="spacer"></span>
+            <span class="female">Siquor Torkjelsdtr Lund</span>
+          </div>
+          <ul>
+            <li>
+              <div>
+                <span class="male">Lars Pederson Hole (3/16/1793 - 1855)</span>
+              </div>
+              <ul>
+                <li>
+                  <div>
+                    <span class="male">Peder Larson Hole (? - 12/2/1822)</span>
+                    <span class="spacer"></span>
+                    <span class="female">Martha Brenjekdtr Gravley</span>
+                  </div>
+                  <ul>
+                    <li>
+                      <div>
+                        <span class="male">Christian Larson (?)</span>
+                        <span class="spacer"></span>
+                        <span class="female">Cecila Brekke (?)</span>
+                      </div>
+                      <ul>
+                        <li>
+                          <div>
+                            <span class="male">Peter John Larson (4/4/1895 - 9/8/1981)</span>
+                            <span class="spacer"></span>
+                            <span class="female">Cora Annette Martinson (2/15/1899 - 2/22/1993)</span>
+                          </div>
+                          <ul>
+                            <li>
+                              <div>
+                                <span class="male">Vincent LeRoy Larson (7/19/1924 - ?)</span>
+                                <span class="spacer"></span>
+                                <span class="female">Rachel Ann Tweeten (2/26/1925 - ?)</span>
+                              </div>
+                              <ul>
+                                <li>
+                                  <div>
+                                    <span class="male">Ronald Craig Larson (6/21/1946)</span>
+                                    <span class="spacer"></span>
+                                    <span class="female">Jane Elizabeth (Brower) Larson (2/7/1946)</span>
+                                  </div>
+                                  <ul>
+                                    <li>
+                                      <div>
+                                        <span class="female">Emily Jane (Larson) Earnest (8/24/1974)</span>
+                                        <span class="spacer"></span>
+                                        <span class="male">RG (Ryan Grant) Earnest (11/19/1975)</span>
+                                      </div>
+                                      <ul>
+                                        <li>
+                                          <div>
+                                            <span class="male">Samuel Brower Earnest (3/18/2008)</span>
+                                          </div>
+                                          <div>
+                                            <span class="male">William Grant Earnest (8/30/2010)</span>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                    </li>
+                                    <li>
+                                      <div>
+                                        <span class="male">Eric William Larson (11/23/1977)</span>
+                                        <span class="spacer"></span>
+                                        <span class="female">Megan Christine (Curtis) Larson (11/17/1978)</span>
+                                      </div>
+                                      <ul>
+                                        <li>
+                                          <div>
+                                            <span class="male">Oscar Henry Larson (12/10/2009)</span>
+                                          </div>
+                                          <div>
+                                            <span class="male">August Anders Larson (10/30/2013)</span>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                    </li>
+                                    <li>
+                                      <div>
+                                        <span class="male">Scott Robert Larson (9/18/1981)</span>
+                                        <span class="spacer"></span>
+                                        <span class="male">Chelsey Marie Blanke (8/2/1990)</span>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="separator"></div>
+
+  <div class="recipe row">
+    <div id="tweeten-charlson">
+      <h3>Tweeten / Charlson</h3>
+
+      <h4 class="mt-2">Tweeten</h4>
+      <ul class="tree">
+        <li>
+          <div>
+            <span class="male">Abraham Tweeten (1864 - 1933)</span>
+            <span class="spacer"></span>
+            <span class="female">Anna Ruth Tweeten (1879 - 1968)</span>
+          </div>
+          <ul>
+            <li>
+              <div>
+                <span class="male">Oscar Selmer Tweeten (10/3/1901 - 4/24/1988)</span>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <h4 class=mt-2>Charlson</h4>
+      <ul class="tree">
+        <li>
+          <div>
+            <span class="male">Nels Eli Charlson (1/8/1858 - 2/15/1931)</span>
+            <span class="spacer"></span>
+            <span class="female">Rachel Eliana Jensen (3/12/1864 - 2/16/1915)</span>
+          </div>
+          <ul>
+            <li>
+              <div>
+                <span class="female">Hazel Elvira Charlson (1/10/1902 - 12/08/1987)</span>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <h4 class="mt-2">Tweeten / Charlson</h4>
+      <ul class="tree">
+        <li>
+          <div>
+            <span class="male">Oscar Selmer Tweeten (10/3/1901 - 4/24/1988)</span>
+            <span class="spacer"></span>
+            <span class="female">Hazel Elvira Charlson (1/10/1902 - 12/8/1987)</span>
+          </div>
+          <ul>
+            <li>
+              <div>
+                <span class="female">Rachel Ann Tweeten (2/26/1925 - 2/9/2015)</span>
+                <span class="spacer"></span>
+                <span class="male">Vincent LeRoy Larson (7/19/1924 - 12/5/2015)</span>
+              </div>
+              <ul>
+                <li>
+                  <div>
+                    <span class="male">David Larson</span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <span class="male">Ronald Larson</span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <span class="male">Gary Larson</span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <span class="male">Steve Larson</span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <span class="male">James Larson</span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <span class="male">John Larson</span>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="separator"></div>
+
+  <div class="recipe row">
+    <div id="brower">
+      <h3>Brower</h3>
+      <ul class="tree">
+      </ul>
+    </div>
+  </div>
+
+  <div class="recipe row">
+    <div id="hartwig">
+      <h3>Hartwig</h3>
+      <ul class="tree">
+      </ul>
+    </div>
+  </div>
+</div>

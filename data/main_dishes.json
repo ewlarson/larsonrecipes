@@ -229,6 +229,34 @@
         "print_image": true
       },
       {
+        "title": "Chicken Fajitas",
+        "author": "RG Earnest",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "1 1/2 lb chicken breasts, sliced horizontally",
+              "1/2 cup low sodium soy sauce",
+              "1/2 cup zesty Italian salad dressing",
+              "Green peppers",
+              "Onion",
+              "Flour tortillas",
+              "Sour cream",
+              "Shredded cheese",
+              "Diced tomatoes"
+            ]
+          }
+        ],
+        "instructions": [
+          "Combine soy sauce and salad dressing to make marinade. Reserve a small amount of marinade for basting. Marinate the chicken breasts for 2-4 hours. Grill chicken for about 5-6 minutes per side or until cooked. Baste periodically while grilling. Let chicken rest 5-10 minutes before slicing into strips. Serve with grilled peppers and onions on warm flour tortillas. Additional toppings as desired include sour cream, shredded cheese, diced tomatoes."
+        ],
+        "images": [],
+        "notes": [
+          "RG is well known to be the grill master of the family. This is his favorite grilling recipe."
+        ],
+        "print_image": true
+      },
+      {
         "title": "Chicken Piccata",
         "author": "Jane Larson",
         "ingredients": [
