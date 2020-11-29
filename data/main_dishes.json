@@ -214,18 +214,24 @@
           {
             "label": "Ingredients",
             "list": [
-              "1 lb beef?",
-              "Carrots",
-              "Potatoes",
-              "Package of dry french onion dip?"
+              "2 large potatoes, sliced",
+              "2 to 3 medium carrots, sliced",
+              "2 stalks of celery, sliced",
+              "3 medium onions, sliced",
+              "1 16oz can peas, well drained",
+              "1 10oz can tomato soup",
+              "1 10oz can water",
+              "1 1/2 lbs lean ground beef, browned"
             ]
           }
         ],
         "instructions": [
-          "@TODO"
+          "Place layers of vegetables in the order given in CROCK-POT. Season each layer with salt and pepper. Put the lightly browned ground beef on top of the celery. Mix in the tomato soup with the water and pour into CROCK-POT. Cover and set on Low 6 to 8 hours. (High: 2 to 4 hours, stirring occasionally)."
         ],
         "images": [],
-        "notes": [],
+        "notes": [
+          "A crock favorite was this stew. Sometimes we used beef steak and always eliminated the peas because Emily doesn't like them."
+        ],
         "print_image": true
       },
       {
@@ -657,6 +663,34 @@
         "notes": [
           "This is comfort food. It is a good way to use up leftover meatballs. Parmesan cheese goes well on top.",
           "Mom and Dad made meatball soup for Emily and RG on the day they brought Sam home from the hospital."
+        ],
+        "print_image": false
+      },
+      {
+        "title": "Pancakes",
+        "author": "Jane Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "2 eggs, beaten",
+              "2 cups buttermilk",
+              "1 1/2 cups flower",
+              "3 teaspoons baking powder",
+              "1/2 teaspoon soda",
+              "1 teaspoon salt",
+              "2 tablespoons sugar",
+              "3 tablespoons melted butter"
+            ]
+          }
+        ],
+        "instructions": [
+          "Add buttermilk to eggs; blend well. Stir in dry ingredients. Blend in butter. Rest 10 minutes. Pour batter onto hot greased griddle. Bake until edges are cooked; turn and bake other side."
+        ],
+        "images": [],
+        "notes": [
+          "From a Lutheran Brotherhood cookbook. Vincent Larson sold insurance with them for about 20 years.",
+          "This is Ron and Jane's favorite pancake recipe. They fed it to their children when they were young. Now that coronavirus is keeping them home, they are making pancakes and adding fresh fruit."
         ],
         "print_image": false
       },

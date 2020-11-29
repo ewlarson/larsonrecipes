@@ -12,3 +12,30 @@ weasyprint http://localhost:4567/book book.pdf
 ```
 
 ### Book Sections
+
+### TODO
+
+* Family prayer
+
+* Holiday menu recommendations
+- Thanksgiving
+: (Penny in the old man's hat)
+
+- Christmas 
+: crepes
+: strawberries
+: whipped cream
+: breakfast sausage
+: mimosas
+
+- Easter
+
+* Picnic dinner
+
+* Favorite restaurants/bars
+
+* Family tree
+
+* More dutch paintings
+
+*
