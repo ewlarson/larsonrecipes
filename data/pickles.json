@@ -108,12 +108,12 @@
           "Let pickles work for at least 3 or 4 months before eating"
         ],
         "images": [
-          "/images/dill_pickles.jpg"
+          "/images/larson_dill.jpg"
         ],
         "notes": [
           "Rachel loved to use her garden home grown dill. She slaved in a hot kitchen to make these pickles with no central air conditioning."
         ],
-        "print_image": false
+        "print_image": true
       },
       {
         "title": "Everyday Pickles",
@@ -160,12 +160,12 @@
           "(Maybe you will just want to make pints as it takes quite a few)"
         ],
         "images": [
-          "/images/ice_water_pickles.png"
+          "/images/ice_water_pickles.jpg"
         ],
         "notes": [
           "The secret is to cut the cucumbers thin and to include celery in the middle of the jar. The onions are good in sandwiches."
         ],
-        "print_image": false
+        "print_image": true
       },
       {
         "title": "Pickled Green Tomatoes",
