@@ -756,6 +756,93 @@
         "print_image": false
       },
       {
+        "title": "Pizza / Thin Crust",
+        "author": "Eric Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "Pizza steel",
+              "Pizza peel",
+              "Pizza dough (see recipe)",
+              "Pizza sauce (see recipe)",
+              "Cheese",
+              "Toppings",
+              "Flour",
+              "Corn meal"
+            ]
+          }
+        ],
+        "instructions": [
+          "Preheat pizza steel (or stone) in oven at 550 degrees for 1 hour. Meanwhile, divide pizza dough into three balls. Dust with flour and cover to rise until oven is ready.",
+          "Dust your work surface with flour. For each pizza, use a rolling pin to roll it out thin. Should be about 12-14 inches.",
+          "Dust your pizza peel with corn meal and don't be shy about it. Transfer the dough onto the peel. Spread with sauce, Add half the cheese. Add the toppings. Add the remaining cheese. Give the peel a gentle shake to make sure pizza is not sticking to peel.",
+          "Transfer to oven. Bakes very quickly, about 6 minutes."
+        ],
+        "images": [
+          "/images/pizza_thin_crust.jpg"
+        ],
+        "notes": [
+        ],
+        "print_image": false
+      },
+      {
+        "title": "Pizza Dough",
+        "author": "Eric Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "2 heaping cups of bread flour",
+              "1 teaspoon salt",
+              "1 cup hot water",
+              "1 teaspoon sugar",
+              "2 teaspoons instant yeast",
+              "1 tablespoon olive oil"
+            ]
+          }
+        ],
+        "instructions": [
+          "Run hot water from the tap until good and hot. Stir in the teaspoon of sugar until dissolved. Stir in the yeast. Let proof for 10 minutes.",
+          "Meanwhile, add flour and salt to a food processor. Mix briefly. After the yeast is ready, pour it into the food processor and mix to kneed the dough for a full 60 seconds. Should form a nice ball.",
+          "Transfer to a bowl, pour olive oil over top and spin dough ball to cover entirely in oil. Cover with Glad Press'N Seal wrap. Ready to bake in about 3 hours."
+        ],
+        "images": [
+        ],
+        "notes": [
+          "Makes 1 cast iron deep dish pan pizza, 1 quarter sheet pan \"grandma pie\" pizza, or 3 thin crust pizza stone/steel pizzas."
+        ],
+        "print_image": false
+      },
+      {
+        "title": "Pizza Sauce",
+        "author": "Eric Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "2 tablespoons olive oil",
+              "3 cloves minced garlic",
+              "2 teaspoons dried oregano",
+              "Dash red pepper flakes",
+              "1 28 oz. can of whole peeled tomatoes",
+              "1 teaspoon garlic powder",
+              "1 teaspoon onion powder",
+              "1 tablespoon sugar",
+              "Kosher salt, to taste"
+            ]
+          }
+        ],
+        "instructions": [
+          "The better tomatoes you buy, the better the sauce will taste. Combine all ingredients in a food processor. Blend until consistent."
+        ],
+        "images": [
+        ],
+        "notes": [
+        ],
+        "print_image": false
+      },
+      {
         "title": "Pork Chops with Corn Dressing",
         "author": "Jane Larson",
         "ingredients": [
