@@ -33,7 +33,7 @@
         "notes": [
           "Recipe from the 1986 National Pork Producers Recipe Contest."
         ],
-        "print_image": true
+        "print_image": false
       },
       {
         "title": "Artichoke, Spinach, and Feta Stuffed Shells",
@@ -363,9 +363,11 @@
         "instructions": [
           "Spray a coffee mug with Pam. Crack egg into the mug. Beat egg and microwave 1 minute. Good for dogs and young children."
         ],
-        "images": [],
+        "images": [
+          "images/dillon.jpeg"
+        ],
         "notes": [
-          "Named for our first dog, Dillon, who as named after one of our favorite camping locations: Dillon, CO."
+          "Named for our first dog, Dillon, who himself was named after one of our favorite camping locations: Dillon, CO."
         ],
         "print_image": true
       },
@@ -603,7 +605,7 @@
           "/images/lasagne.jpg"
         ],
         "notes": [
-          "Ben Yu was the person that wrote in \"add pineapple\" to the lasagna recipe. He insisted it would be good. Emily didn’t want to add pineapple so (of course) he wrote directly on the recipe so it is forever included."
+          "An old boyfriend of Emily's insisted that adding pineapple would be good and wrote it on the recipe to be forever included."
         ],
         "print_image": false
       },
@@ -775,16 +777,14 @@
         ],
         "instructions": [
           "Preheat pizza steel (or stone) in oven at 550 degrees for 1 hour. Meanwhile, divide pizza dough into three balls. Dust with flour and cover to rise until oven is ready.",
-          "Dust your work surface with flour. For each pizza, use a rolling pin to roll it out thin. Should be about 12-14 inches.",
-          "Dust your pizza peel with corn meal and don't be shy about it. Transfer the dough onto the peel. Spread with sauce, Add half the cheese. Add the toppings. Add the remaining cheese. Give the peel a gentle shake to make sure pizza is not sticking to peel.",
-          "Transfer to oven. Bakes very quickly, about 6 minutes."
+          "Dust your work surface with flour. For each pizza, use a rolling pin to roll it out thin. Should be about 12-14 inches. Dust your pizza peel with corn meal and don't be shy about it. Transfer the dough onto the peel. Spread with sauce, Add half the cheese. Add the toppings. Add the remaining cheese. Give the peel a gentle shake to make sure pizza is not sticking to peel. Transfer to oven. Bakes very quickly, about 6 minutes."
         ],
         "images": [
           "/images/pizza_thin_crust.jpg"
         ],
         "notes": [
         ],
-        "print_image": false
+        "print_image": true
       },
       {
         "title": "Pizza Dough",

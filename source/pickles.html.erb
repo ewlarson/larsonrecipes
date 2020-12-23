@@ -81,5 +81,10 @@ recipeCuisine: American
         </div>
       </div>
     <% end %>
+
+    <% if recipe.title == 'Sexy Memphis Gator Eggs' %>
+      <!-- Print Image / This ID doesn't exist, so blank page -->
+      <section class="background print" id="kitchen_window" /></section>
+    <% end %>
   <% end %>
 </div>

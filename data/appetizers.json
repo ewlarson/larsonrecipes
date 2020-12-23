@@ -47,7 +47,7 @@
         "notes": ""
       },
       {
-        "title": "Dad's Shrimp Dip",
+        "title": "Dad’s Shrimp Dip",
         "author": "Ronald Larson",
         "ingredients": [
           {
@@ -68,6 +68,32 @@
         ],
         "images": [
           "shrimp_dip.jpg"
+        ],
+        "print_image": true,
+        "notes": ""
+      },
+      {
+        "title": "Garlic Knots",
+        "author": "Eric Larson",
+        "ingredients": [
+          {
+            "label": "Ingredients",
+            "list": [
+              "Pizza dough",
+              "Butter",
+              "Garlic",
+              "Parmesan",
+              "Parsley"
+            ]
+          }
+        ],
+        "instructions": [
+          "From the recipe in Main Dishes, make pizza dough. When the dough is ready, preheat the oven to 500 degrees. On a cookie sheet, spread the dough out into a big, flat rectange. With a pizza wheel or knife, cut the large rectangle down into small 1 inch by 3 to 4 inch rectangles. Take each little rectange, tie it into a knot, and place back onto the cookie sheet. Repeat until all knots are made.",
+          "Brush each knot with a little olive oil. Transfer to the oven for 8 to 10 minutes. Watch closely. They won't need to cook too long. You will want to remove the knots when their bottoms are nicely cooked and slightly brown, but the tops should be soft still.",
+          "While knots are baking, slowly heat a stick of butter with 2-3 cloves of minced garlic until fully melted and the garlic is good and fragrant. You probably won't need it all, but you might decide to use it all anyway.",
+          "When the knots come out of the oven, generously brush each knot with the melted butter. Transfer to a large mixing bowl. Generously shake parmesan over the garlic knots. Optionally, add some chopped garlic (but young kids might not want it). Toss the knots in the parmesan until nicely covered. Enjoy immediately and while hot!"
+        ],
+        "images": [
         ],
         "print_image": true,
         "notes": ""

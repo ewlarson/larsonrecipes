@@ -110,6 +110,9 @@ $iron: #5E5E5E;                   // #5E5E5E
     height: 250mm;
     justify-content: center;
   }
+  .pbb {
+    page-break-before: always;
+  }
 
   a {
     &:not(.btn) {
@@ -306,6 +309,30 @@ $iron: #5E5E5E;                   // #5E5E5E
 
   #antelope.background {
     background: lightblue image-url("backgrounds/antelope.jpeg") no-repeat center;
+    background-size: cover;
+    height: 216mm;
+  }
+
+  #buffalo.background {
+    background: lightblue image-url("backgrounds/buffalo.jpeg") no-repeat center;
+    background-size: cover;
+    height: 216mm;
+  }
+
+  #woman.background {
+    background: lightblue image-url("backgrounds/woman.jpeg") no-repeat center;
+    background-size: cover;
+    height: 216mm;
+  }
+
+  #smoked-fish.background {
+    background: lightblue image-url("backgrounds/smoked_fish.jpeg") no-repeat center;
+    background-size: cover;
+    height: 216mm;
+  }
+
+  #postcard-hanger.background {
+    background: lightblue image-url("backgrounds/postcard_hanger.jpeg") no-repeat center;
     background-size: cover;
     height: 216mm;
   }

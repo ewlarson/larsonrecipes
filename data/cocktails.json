@@ -221,7 +221,9 @@
         "images": [
           "/images/michelada.jpg"
         ],
-        "notes": [],
+        "notes": [
+          "One year after a trip to the Maroon Bells we stopped for a snack at a Mexican restaurant in Basalt and all fell in love with this drink.  This is Scott's take on this classic cocktail."
+        ],
         "print_image": true
       }
     ]
