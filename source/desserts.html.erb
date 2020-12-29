@@ -854,18 +854,9 @@ color: lavender
 
   <div class="separator"></div>
 
-  <section class="blank" /></section>
-  <h2 id="lefse" class="center">Lefse</h2>
-
-  <div class="row justify-content-center">
-    <div class="image col-md-6">
-      <img class="img-fluid" src="<%= image_path('lefse.jpg') %>" />
-    </div>
-  </div>
-
   <div class="recipe row">
     <div class="title col-md-12">
-      <h2>Lefse</h2>
+      <h2 id="lefse">Lefse</h2>
     </div>
 
     <div class="image col-md-6 web">
@@ -897,14 +888,19 @@ color: lavender
         <p>Recipe from Cora Annette Martinson Larson is the one we use. Rachel was always trying to find a shortcut. Chilling the dough is important.  </p>
         <p>Every Norweigan in Northern Iowa and Southern Minnesota swears the electricity at 4:00 a.m. is better -- the "good electricity" -- than during the day. In the mid-1930s rural electric service to farms became available. Electricians were scarce so some "handy uncle" put wires into farm houses and barns. They only knew knob and post construction.  While the "uncle" was up on the roof he was suppose to check the lightning rods.</p>
       </div>
+
+      <!-- Print image INLINE -->
+      <div class="print row justify-content-center">
+        <div class="image col-md-12">
+          <img class="img-fluid" src="<%= image_path('lefse_collage.jpg') %>" style="display:inline !important; margin-top:4rem;"/>
+        </div>
+      </div>
+
     </div>
   </div>
 
-  <!-- Print images -->
-  <div class="print row">
-    <img src="<%= image_path('lefse_dad.jpg') %>" />
-    <img src="<%= image_path('lefse_mom.jpg') %>" />
-  </div>
+  <!-- Print Image -->
+  <section class="background print" id="lefse-mom" /></section>
 
   <div class="separator"></div>
 
@@ -1080,7 +1076,7 @@ color: lavender
       <!-- Print image INLINE -->
       <div class="print row justify-content-center">
         <div class="image col-md-12">
-          <img class="img-fluid" src="<%= image_path('apple_pie.jpg') %>" />
+          <img class="img-fluid" src="<%= image_path('apple_pie.jpg') %> "style="display:inline !important; margin-top:4rem;" />
         </div>
       </div>
     </div>

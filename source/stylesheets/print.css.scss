@@ -337,6 +337,12 @@ $iron: #5E5E5E;                   // #5E5E5E
     height: 216mm;
   }
 
+  #lefse-mom.background {
+    background: lightblue image-url("backgrounds/lefse_mom.jpeg") no-repeat center;
+    background-size: cover;
+    height: 216mm;
+  }
+
   .background.basement-wallpaper {
     background: lightblue image-url("backgrounds/basement_wallpaper.jpeg") no-repeat center;
     background-size: cover;
