@@ -98,7 +98,7 @@
         ],
         "instructions": [
           "Remove the thin, papery skin from the back of each rack of ribs by pulling it off in a sheet with your fingers, using the corner of a kitchen towel to gain a secure grip, or with pliers. Combine the ingredients for the rub in a small bowl and whisk to mix. Rub two thirds of this mixture over the ribs on both sides, then transfer the ribs to a roasting pan. Cover and let marinate, in the refrigerator, 4 to 8 hours.",
-          "Set up the grill for indirect grilling, place a large drip pan in the center. If using a charcoal grill, preheat it to medium. IIf using a gas grill, place the wood chips in the smoker box and preheat the grill to high; when smoke appears, reduce the heat to medium.",
+          "Set up the grill for indirect grilling, place a large drip pan in the center. If using a charcoal grill, preheat it to medium. If using a gas grill, place the wood chips in the smoker box and preheat the grill to high; when smoke appears, reduce the heat to medium.",
           "When ready to cook, if using charcoal, toss half the wood chips on the coals. Oil the grill grate. Arrange the ribs on the hot grate over the drip pan. Cover the grill and smoke-cook the ribs for 1 hour."
         ],
         "images": [
@@ -299,11 +299,12 @@
             "label": "Ingredients",
             "list": [
               "2 tablespoons vegetable oil",
-              "2 cups of beef, cubed",
+              "2 pounds of beef sirloin, cubed",
               "1 cup onions",
               "1 green pepper",
               "1 clove garlic, minced",
               "1 12 ounce can tomato paste",
+              "2 1/2 cups of water",
               "2 jalapenos",
               "1 ½ tablespoons chili powder",
               "½ teaspoon crushed red pepper",
@@ -441,7 +442,7 @@
               "⅓ cup chopped green onions",
               "¼ cup matchstick-cut carrots",
               "2 tablespoons chopped fresh cilantro",
-              "1 teaspoon low-sodium soy sauce",
+              "1 tablespoon low-sodium soy sauce",
               "2 teaspoons minced peeled fresh ginger",
               "1 teaspoon dark sesame oil",
               "½ teaspoon salt",
@@ -512,10 +513,10 @@
               "1 pound ground pork",
               "½ cup chopped onion",
               "2 beaten eggs",
-              "1 teaspoon prepared mustard",
-              "¼ cup brown sugar",
               "1 cup tomato juice",
-              "¾ cup crackers"
+              "¾ cup crackers",
+              "1 teaspoon prepared mustard",
+              "¼ cup brown sugar"
             ]
           }
         ],
@@ -677,7 +678,7 @@
             "list": [
               "2 eggs, beaten",
               "2 cups buttermilk",
-              "1 1/2 cups flower",
+              "1 1/2 cups flour",
               "3 teaspoons baking powder",
               "1/2 teaspoon soda",
               "1 teaspoon salt",
@@ -876,7 +877,7 @@
           {
             "label": "Ingredients",
             "list": [
-              "1 lb pork tenderloin, but into 8 pieces",
+              "1 lb pork tenderloin, cut into 8 pieces",
               "2 teaspoon lemon pepper",
               "2 tablespoon butter",
               "2 tablespoon lemon juice",
@@ -1000,7 +1001,7 @@
               "1 clove garlic, minced",
               "1 medium green pepper, finely chopped",
               "½ cup celery finely chopped",
-              "2 tablespoon",
+              "2 tablespoon butter",
               "1 8-ounce can tomato sauce",
               "½ cup water",
               "1 bay leaf",
@@ -1032,6 +1033,7 @@
               "2 cloves garlic",
               "½ teaspoon salt",
               "¼ cup melted butter",
+              "¼ cup olive oil",
               "2 pounds shrimp, shelled and deveined",
               "2 tablespoons lemon juice",
               "1 tablespoon parsley, chopped",
@@ -1201,7 +1203,7 @@
               "2 cups macaroni, boiled until slightly al dente",
               "1 - 1½ cups non-skim milk",
               "2 cups chopped cheeses",
-              "[Scott & Jane’s suggestion: 5 kinds including Velvetta, sharp cheddar, peeperjack, a smoked cheese + any white cheese]"
+              "[Scott & Jane’s suggestion: 5 kinds including Velvetta, sharp cheddar, pepperjack, a smoked cheese + any white cheese]"
             ]
           }
         ],

@@ -21,8 +21,7 @@
               "1 tablespoon baking powder",
               "1 beaten egg",
               "⅓ cup milk",
-              "2 tablespoons cooking oil",
-              "½ cup chopped almonds"
+              "2 tablespoons cooking oil"
             ]
           }
         ],
@@ -63,7 +62,7 @@
       },
       {
         "title": "Cheese Pretzels",
-        "author": "",
+        "author": "Becky Nordmeyer",
         "ingredients": [
           {
             "label": "Ingredients",
@@ -86,7 +85,7 @@
           "/images/cheese_pretzels.jpg"
         ],
         "print_image": true,
-        "notes": ""
+        "notes": "This recipe is from Scott's preschool babysitter."
       },
       {
         "title": "Grandma Brower’s <br/>Butter Horn Rolls",
@@ -113,7 +112,7 @@
           "/images/butter_horn_rolls.jpg"
         ],
         "print_image": false,
-        "notes": "",
+        "notes": "From Household Searchlight Recipe Book 1931.",
         "recipeYield": ["16 rolls"]
       },
       {
@@ -174,7 +173,7 @@
         ],
         "images": [],
         "print_image": false,
-        "notes": ""
+        "notes": "Scott made this recipe a lot while living with Mom and Dad during grad school."
       }
     ]
   }
